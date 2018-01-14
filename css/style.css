@@ -223,7 +223,9 @@ header {
   background-position: center; }
   @media (min-width: 800px) {
     .leader {
-      background-image: url(../img/photos/kawaguchiko.JPG); } }
+      background-image: url(../img/photos/kawaguchiko.JPG);
+      height: 60vh;
+      max-height: 700px; } }
 
 .about {
   background-image: url(../img/photos/team-mobile.jpg);
@@ -231,7 +233,8 @@ header {
   padding: 100px 10px; }
   @media (min-width: 800px) {
     .about {
-      background-image: url(../img/photos/team.jpg); } }
+      background-image: url(../img/photos/team.jpg);
+      padding: 200px 10px; } }
 
 .slogan {
   background-image: url(../img/photos/fuji.JPG);
@@ -239,11 +242,15 @@ header {
   padding: 100px 10px; }
   @media (min-width: 800px) {
     .slogan {
-      background-image: url(../img/photos/fuji.JPG); } }
+      background-image: url(../img/photos/fuji.JPG);
+      padding: 200px 10px; } }
 
 .destinations {
   background-size: cover;
   padding: 10px 10px 50px 10px; }
+  @media (min-width: 800px) {
+    .destinations {
+      padding: 80px 0 120px 0; } }
 
 @media (min-width: 1000px) {
   .destination-wrapper {
@@ -304,7 +311,8 @@ header {
   background-position: center; }
   @media (min-width: 800px) {
     .booking {
-      background-image: url(../img/photos/hokkaido-5.JPG); } }
+      background-image: url(../img/photos/hokkaido-5.JPG);
+      padding: 200px 10px; } }
 
 footer {
   background-color: #1F3566;
