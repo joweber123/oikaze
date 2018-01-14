@@ -1,2 +1,278 @@
+
+$base-color: #1F3566
+$secondary-color: #CB704A
+
+html
+  font-family: 'Oswald', sans-serif
+  
+a
+  text-decoration: none
+  font-weight: 400
 h1
-  color: blue
+  text-align: center
+  color: white
+  font-size: 45px
+  font-weight: 600
+  position: relative
+  z-index: 10
+  @media(min-width: 400px)
+    font-size: 55px
+    margin: 0
+    
+  @media(min-width: 650px)
+    font-size: 90px
+  @media(min-width:1000px)
+    font-size: 120px
+h2
+  text-align: center
+  color: $base-color
+  font-size: 40px
+  font-weight: 600
+  @media(min-width: 400px)
+    font-size: 60px
+    margin: 0
+h3
+  color: white
+  font-size: 40px
+  margin: 0
+  font-weight: 600
+  @media(min-width: 400px)
+    font-size: 50px
+  
+h4
+  color: white
+  font-size: 18px
+  margin: 0
+  font-weight: 400
+  
+p
+  text-align: center
+  color: $base-color
+  font-weight: 400
+  @media(min-width: 400px)
+    margin: 5px auto 15px auto
+    width: 80%
+    max-width: 700px
+header
+  text-align: center
+.primary-nav
+  display: none
+  @media(min-width: 800px)
+    display: inline-block
+    width: 800px
+    
+    
+.nav-logo
+  width: 40%
+  vertical-align: middle
+  display: inline-block
+.nav-element
+  display: block
+  color: $base-color
+  
+  @media(min-width: 800px)
+    display: inline-block
+    padding: 0 10px
+.nav-element:hover
+  color: $secondary-color
+  transition: .2s
+.nav-element-wide
+  display: inline
+.nav-element-narrow
+  font-size: 25px
+  
+.nav-logo-narrow
+  margin: 0 auto
+  display: block
+  @media(min-width: 800px)
+    display: none
+.hamburger
+  position: fixed
+  top: 10px
+  right: 10px
+  cursor: pointer
+  content: ""
+  @media(min-width: 800px)
+    display: none
+.bar
+  width: 25px
+  background-color: black
+  height: 2px
+  margin-top: 5px
+  border-radius: 1px
+.bar-2
+  top: 18px
+.bar-3 
+  top: 26px
+.slide-out-nav
+  position: fixed
+  left: -45vw
+  top: 0
+  height: 100vh
+  background-color: rgba(255,255,255, 0.9)
+  width: 45vw
+  transition: .2s ease-in-out
+  z-index: 100
+  
+.nav-element-narrow-wrapper
+  padding: 30px
+  position: relative
+
+.nav-active
+  left: 0
+  transition: .2s ease-in-out
+  animation-name: over-shoot
+  animation-duration: .2s 
+@keyframes over-shoot
+  0% { width: 45vw}
+  50% { width: 60vw}
+  100% { width: 45vw}
+  
+.close-button
+  font-size: 50px
+  position: absolute
+  top: -20px
+  right: 0
+  z-index: 1
+  color: $base-color
+  
+
+  
+.leader
+  padding-top: 10px
+  text-align: center
+
+.title-accent
+  display: none
+  @media(min-width: 1000px)
+    display: block
+    font-size: 200px
+    color: rgba(119, 119, 119, 0.4)
+    position: relative
+    top: -240px
+    z-index: 1
+
+  
+
+.section
+  text-align: center
+  
+.divider
+  width: 50%
+  display: block
+  margin: 0 auto
+  padding: 10px 0
+  max-width: 700px
+
+.btn
+  padding: 5px 20px
+  border: 2px solid blue
+  display: inline-block
+  margin: 0 auto
+  text-align: center
+  transition: .5s ease-in-out
+.btn:hover
+  background-color: rgba(255,255,255, 0.5)
+  transition: .2s ease-in-out
+  
+
+.white
+  color: white
+  
+.btn-white
+  color: white
+  border: 2px solid white
+  
+.leader
+  background-image: url(/img/photos/kawaguchiko-mobile.jpg)
+  height: 400px
+  background-size: cover
+  background-position: center
+  @media(min-width:800px)
+    background-image: url(/img/photos/kawaguchiko.jpg)
+  
+.about  
+  background-image: url(/img/photos/team-mobile.jpg)
+  background-size: cover
+  padding: 100px 10px
+  @media(min-width:800px)
+    background-image: url(/img/photos/team.jpg)
+  
+.slogan
+  background-image: url(/img/photos/fuji.JPG)
+  background-size: cover
+  padding: 100px 10px
+  @media(min-width:800px)
+    background-image: url(/img/photos/fuji.JPG)
+  
+.destinations
+  //background-image: url(/img/design-elements/japanese-background.png)
+  background-size: cover
+  padding: 10px 10px 50px 10px
+  
+.destination-wrapper
+  @media(min-width: 1000px)
+    margin: 0 auto
+    display: flex
+    align-items: center
+    max-width: 960px
+.destination
+  height: 300px
+  width: 300px
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  margin: 10px auto
+  transition: .2 ease-in-out
+  @media(min-width: 1000px)
+    float: left
+    
+    
+.destination:hover
+  filter: grayscale(100%)
+  transition: .5s ease-in-out
+  
+  
+.destination-1
+  background-image: url(/img/photos/shikoku-2.JPG)
+  background-size: cover
+.destination-2
+  background-image: url(/img/photos/hokkaido-2.JPG)
+  background-size: cover
+.destination-3
+  background-image: url(/img/photos/kyushuu.JPG)
+  background-size: cover
+
+.booking
+  background-image: url(/img/photos/hokkaido-5-mobile.jpg)
+  background-size: cover
+  padding: 100px 10px
+  background-position: center
+  @media(min-width:800px)
+    background-image: url(/img/photos/hokkaido-5.jpg)
+  
+footer
+  background-color: $base-color
+  padding: 10px 0
+  text-align: center
+.secondary-nav
+  text-align: center
+  max-width: 800px
+  margin: 0 auto
+  .nav-element
+    color: white
+    @media(min-width: 800px)
+      display: inline-block
+      
+    
+    
+.secondary-nav-logo
+  display: block
+  margin: 0 auto
+.legal-link
+  color: white
+  display: block
+  
+
+  

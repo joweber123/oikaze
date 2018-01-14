@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/css\/normalize.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/normalize-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -76,6 +86,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/photos\/fuji-mobile.jpg": {
+		"ft": 16384,
+		"iS": 265685,
+		"oA": 0,
+		"oAP": "\/img\/photos\/fuji-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/photos\/fuji.JPG": {
 		"ft": 16384,
 		"iS": 6493751,
@@ -93,7 +113,7 @@
 		"oAP": "\/img\/photos\/hokkaido-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/hokkaido-3.JPG": {
@@ -116,6 +136,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/hokkaido-5-mobile.jpg": {
+		"ft": 16384,
+		"iS": 97784,
+		"oA": 0,
+		"oAP": "\/img\/photos\/hokkaido-5-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/photos\/hokkaido-5.JPG": {
 		"ft": 16384,
 		"iS": 5376826,
@@ -123,7 +153,7 @@
 		"oAP": "\/img\/photos\/hokkaido-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/hokkaido.JPG": {
@@ -166,14 +196,24 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/kawaguchiko.JPG": {
+	"\/img\/photos\/kawaguchiko-mobile.jpg": {
+		"ft": 16384,
+		"iS": 124589,
+		"oA": 0,
+		"oAP": "\/img\/photos\/kawaguchiko-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/kawaguchiko.jpg": {
 		"ft": 16384,
 		"iS": 5432216,
 		"oA": 0,
 		"oAP": "\/img\/photos\/kawaguchiko.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/kyushuu.JPG": {
@@ -183,7 +223,7 @@
 		"oAP": "\/img\/photos\/kyushuu.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/kyuushu-2.JPG": {
@@ -233,7 +273,7 @@
 		"oAP": "\/img\/photos\/shikoku-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/shikoku-3.JPG": {
@@ -241,6 +281,26 @@
 		"iS": 7132584,
 		"oA": 0,
 		"oAP": "\/img\/photos\/shikoku-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/team-mobile.jpg": {
+		"ft": 16384,
+		"iS": 144872,
+		"oA": 0,
+		"oAP": "\/img\/photos\/team-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/team.jpg": {
+		"ft": 16384,
+		"iS": 210878,
+		"oA": 0,
+		"oAP": "\/img\/photos\/team.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -272,11 +332,29 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/js\/functions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/functions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/functions.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/functions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery-3.2.1.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery-3.2.1.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
