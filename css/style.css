@@ -223,7 +223,7 @@ header {
   background-position: center; }
   @media (min-width: 800px) {
     .leader {
-      background-image: url(../img/photos/kawaguchiko.jpg); } }
+      background-image: url(../img/photos/kawaguchiko.JPG); } }
 
 .about {
   background-image: url(../img/photos/team-mobile.jpg);
@@ -304,7 +304,7 @@ header {
   background-position: center; }
   @media (min-width: 800px) {
     .booking {
-      background-image: url(../img/photos/hokkaido-5.jpg); } }
+      background-image: url(../img/photos/hokkaido-5.JPG); } }
 
 footer {
   background-color: #1F3566;
