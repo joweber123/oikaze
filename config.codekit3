@@ -106,7 +106,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/hokkaido-2.JPG": {
+	"\/img\/photos\/hokkaido-2.jpg": {
 		"ft": 16384,
 		"iS": 5124526,
 		"oA": 0,
@@ -146,7 +146,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/photos\/hokkaido-5.JPG": {
+	"\/img\/photos\/hokkaido-5.jpg": {
 		"ft": 16384,
 		"iS": 5376826,
 		"oA": 0,
@@ -161,6 +161,66 @@
 		"iS": 7852638,
 		"oA": 0,
 		"oAP": "\/img\/photos\/hokkaido.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/insta-1.jpg": {
+		"ft": 16384,
+		"iS": 54825,
+		"oA": 0,
+		"oAP": "\/img\/photos\/insta-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/insta-2.jpg": {
+		"ft": 16384,
+		"iS": 43056,
+		"oA": 0,
+		"oAP": "\/img\/photos\/insta-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/insta-3.jpg": {
+		"ft": 16384,
+		"iS": 33463,
+		"oA": 0,
+		"oAP": "\/img\/photos\/insta-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/insta-4.jpg": {
+		"ft": 16384,
+		"iS": 21337,
+		"oA": 0,
+		"oAP": "\/img\/photos\/insta-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/insta-5.jpg": {
+		"ft": 16384,
+		"iS": 30662,
+		"oA": 0,
+		"oAP": "\/img\/photos\/insta-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/insta-6.jpg": {
+		"ft": 16384,
+		"iS": 34588,
+		"oA": 0,
+		"oAP": "\/img\/photos\/insta-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -216,7 +276,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/photos\/kyushuu.JPG": {
+	"\/img\/photos\/kyushuu.jpg": {
 		"ft": 16384,
 		"iS": 6562275,
 		"oA": 0,
@@ -266,7 +326,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/shikoku-2.JPG": {
+	"\/img\/photos\/shikoku-2.jpg": {
 		"ft": 16384,
 		"iS": 5255102,
 		"oA": 0,

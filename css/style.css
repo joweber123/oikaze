@@ -162,6 +162,11 @@ header {
   100% {
     width: 45vw; } }
 
+.darken {
+  -webkit-filter: grayscale(60%);
+          filter: grayscale(60%);
+  background-color: #D3D3D3; }
+
 .close-button {
   font-size: 50px;
   position: absolute;
@@ -313,6 +318,69 @@ header {
     .booking {
       background-image: url(../img/photos/hokkaido-5.JPG);
       padding: 200px 10px; } }
+
+.instagram-feed {
+  white-space: nowrap;
+  overflow: scroll;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  cursor: -webkit-grab;
+  cursor: grab; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+.insta-wrapper-mobile {
+  height: 50px;
+  text-align: center;
+  padding: 0 0 50px 0;
+  display: block; }
+
+.insta-logo-mobile {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 0 auto; }
+
+.insta-wrapper {
+  display: none; }
+  @media (min-width: 800px) {
+    .insta-wrapper {
+      position: absolute;
+      text-align: center;
+      height: 300px;
+      width: 300px;
+      background-color: rgba(255, 255, 255, 0.9);
+      cursor: pointer; } }
+
+.insta-logo {
+  height: 200px;
+  padding-top: 30px; }
+
+.hashtag {
+  color: #1F3566; }
+
+.insta-img {
+  display: inline-block;
+  background-size: cover;
+  height: 300px;
+  width: 300px; }
+
+.insta-img-1 {
+  background-image: url(../img/photos/insta-1.jpg); }
+
+.insta-img-2 {
+  background-image: url(../img/photos/insta-2.jpg); }
+
+.insta-img-3 {
+  background-image: url(../img/photos/insta-3.jpg); }
+
+.insta-img-4 {
+  background-image: url(../img/photos/insta-4.jpg); }
+
+.insta-img-5 {
+  background-image: url(../img/photos/insta-5.jpg); }
 
 footer {
   background-color: #1F3566;

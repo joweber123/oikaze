@@ -9,6 +9,16 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet">
   </head>
   <body>
+    <nav class="slide-out-nav">
+      <a href="#" class="close-button">&times;</a>
+      <div class="nav-element-narrow-wrapper">
+        <a class="nav-element nav-element-narrow" href="#booking.html">how to book</a>
+        <a class="nav-element nav-element-narrow" href="#destinations.html">destinations</a>
+        <a class="nav-element nav-element-narrow" href="#contact.html">about us</a>
+        <a class="nav-element nav-element-narrow" href="#about.html">contact</a>
+      </div>
+    </nav>
+    <div class="site-wrapper">
     <header>
       <nav class="primary-nav">
           <a class="nav-element nav-element-wide" href="#booking.html">how to book</a>
@@ -23,15 +33,6 @@
           <div class="bar bar-1"></div>
           <div class="bar bar-2"></div>
           <div class="bar bar-3"></div>
-        </div>
-      </nav>
-      <nav class="slide-out-nav">
-        <a href="#" class="close-button">&times;</a>
-        <div class="nav-element-narrow-wrapper">
-          <a class="nav-element nav-element-narrow" href="#booking.html">how to book</a>
-          <a class="nav-element nav-element-narrow" href="#destinations.html">destinations</a>
-          <a class="nav-element nav-element-narrow" href="#contact.html">about us</a>
-          <a class="nav-element nav-element-narrow" href="#about.html">contact</a>
         </div>
       </nav>      
     </header>
@@ -77,7 +78,23 @@
         <a class="btn" href="#booking">Let's get you here</a>
       </div>
       <img class="divider" src="img/design-elements/sumi-divider-orange.png" alt="">
-      <div class="instagram-feed"></div>
+      <a  target="_blank" href="https://www.instagram.com/oikazebiketours/"class="insta-wrapper-mobile ">
+        <img class="insta-logo-mobile" src="img/design-elements/insta.svg" alt="insta-logo">
+        <div class="hashtag">#oikazebiketours</div>
+      </a>
+      <div class="instagram-feed dragscroll">
+        
+        <a  target="_blank" href="https://www.instagram.com/oikazebiketours/"class="insta-wrapper ">
+          <img class="insta-logo" src="img/design-elements/insta.svg" alt="insta-logo">
+          <div class="hashtag">#oikazebiketours</div>
+        </a>
+        <div class="insta-img insta-img-1"></div>
+        <div class="insta-img insta-img-2"></div>
+        <div class="insta-img insta-img-3"></div>
+        <div class="insta-img insta-img-4"></div>
+        <div class="insta-img insta-img-5"></div>
+        
+      </div>
       <footer>
         <nav class="secondary-nav">
             <a class="nav-element" href="#booking.html">how to book</a>
@@ -90,8 +107,9 @@
         <a class="legal-link" href="#">-copyright 2018-</a>
       </footer>
     </div>
+  </div>
   </body>
-  
+  <script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/functions.js"></script>
     
