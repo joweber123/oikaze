@@ -9,6 +9,24 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
+	"\/booking.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/booking.html",
+		"oF": 0
+		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
 	"\/css\/normalize.css": {
 		"aP": 1,
 		"bl": 0,
@@ -42,11 +60,38 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/destinations.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/destinations.html",
+		"oF": 0
+		},
+	"\/img\/design-elements\/insta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/insta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/japanese-background.png": {
 		"ft": 32768,
 		"iS": 2135060,
 		"oA": 0,
 		"oAP": "\/img\/design-elements\/japanese-background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/design-elements\/logo-4-white.png": {
+		"ft": 32768,
+		"iS": 10833,
+		"oA": 0,
+		"oAP": "\/img\/design-elements\/logo-4-white.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -74,6 +119,22 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/design-elements\/next-arrows.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/next-arrows.ai",
+		"oF": 0
+		},
+	"\/img\/design-elements\/next-arrows.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/next-arrows.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/design-elements\/sumi-divider-orange.png": {
 		"ft": 32768,
@@ -316,6 +377,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/mountain.jpg": {
+		"ft": 16384,
+		"iS": 72392,
+		"oA": 0,
+		"oAP": "\/img\/photos\/mountain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/old-bike.jpg": {
+		"ft": 16384,
+		"iS": 43833,
+		"oA": 0,
+		"oAP": "\/img\/photos\/old-bike.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/shikoku-1.JPG": {
 		"ft": 16384,
 		"iS": 5190187,
@@ -386,11 +467,21 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/water-tori.jpg": {
+		"ft": 16384,
+		"iS": 27670,
+		"oA": 0,
+		"oAP": "\/img\/photos\/water-tori.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
-		"oF": 0
+		"oF": 1
 		},
 	"\/js\/functions-min.js": {
 		"ft": 64,
