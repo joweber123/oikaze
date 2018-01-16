@@ -147,6 +147,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/photos\/ben.jpg": {
+		"ft": 16384,
+		"iS": 105737,
+		"oA": 0,
+		"oAP": "\/img\/photos\/ben.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/fuji-mobile.jpg": {
 		"ft": 16384,
 		"iS": 265685,
@@ -317,6 +327,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/james.jpg": {
+		"ft": 16384,
+		"iS": 102714,
+		"oA": 0,
+		"oAP": "\/img\/photos\/james.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/kawaguchiko-mobile.jpg": {
 		"ft": 16384,
 		"iS": 124589,
@@ -467,6 +487,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/two-shot.jpg": {
+		"ft": 16384,
+		"iS": 112650,
+		"oA": 0,
+		"oAP": "\/img\/photos\/two-shot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/water-tori.jpg": {
 		"ft": 16384,
 		"iS": 27670,
@@ -482,6 +512,12 @@
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 1
+		},
+	"\/japan.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/japan.html",
+		"oF": 0
 		},
 	"\/js\/functions-min.js": {
 		"ft": 64,
@@ -509,6 +545,18 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/legal.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/legal.html",
+		"oF": 0
+		},
+	"\/tour-types.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tour-types.html",
+		"oF": 0
 		}
 	},
 "hooks": [

@@ -59,16 +59,20 @@ header
   display: none
   @media(min-width: 800px)
     display: inline-block
-    width: 800px
+    max-width: 960px
+    
+    
+    
     
     
 .nav-logo
-  width: 40%
+  width: 25%
   vertical-align: middle
   display: inline-block
 .nav-element
   display: block
   color: $base-color
+
   
   @media(min-width: 800px)
     display: inline-block
@@ -80,6 +84,7 @@ header
   display: inline
 .nav-element-narrow
   font-size: 25px
+  
   
 .nav-logo-narrow
   margin: 0 auto
@@ -204,6 +209,15 @@ header
   padding: 100px 10px
   @media(min-width:800px)
     background-image: url(../img/photos/team.jpg)
+    padding: 200px 10px
+
+.about-page
+  background-image: url(../img/photos/team-mobile.jpg)
+  background-size: cover
+  padding: 100px 10px
+  @media(min-width:800px)
+    background-image: url(../img/photos/two-shot.jpg)
+    background-position: top
     padding: 200px 10px
   
 .slogan
@@ -441,6 +455,12 @@ footer
 
 //about page
 
+.team-member
+  height: 400px
+  width: 400px
+  border-radius: 50%
+  float: left
+  background-image: url(../img/photos/ben.jpg)
 
   
 

@@ -66,10 +66,10 @@ header {
   @media (min-width: 800px) {
     .primary-nav {
       display: inline-block;
-      width: 800px; } }
+      max-width: 960px; } }
 
 .nav-logo {
-  width: 40%;
+  width: 25%;
   vertical-align: middle;
   display: inline-block; }
 
@@ -239,6 +239,16 @@ header {
   @media (min-width: 800px) {
     .about {
       background-image: url(../img/photos/team.jpg);
+      padding: 200px 10px; } }
+
+.about-page {
+  background-image: url(../img/photos/team-mobile.jpg);
+  background-size: cover;
+  padding: 100px 10px; }
+  @media (min-width: 800px) {
+    .about-page {
+      background-image: url(../img/photos/two-shot.jpg);
+      background-position: top;
       padding: 200px 10px; } }
 
 .slogan {
@@ -537,3 +547,10 @@ footer {
   color: white;
   display: block;
   font-size: 12px; }
+
+.team-member {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  float: left;
+  background-image: url(../img/photos/ben.jpg); }
