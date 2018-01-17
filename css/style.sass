@@ -14,7 +14,6 @@ h1
   font-size: 45px
   font-weight: 600
   position: relative
-  z-index: 10
   @media(min-width: 400px)
     font-size: 55px
     margin: 0
@@ -28,6 +27,7 @@ h2
   color: $base-color
   font-size: 40px
   font-weight: 600
+  margin-bottom: 0
   @media(min-width: 400px)
     font-size: 60px
     margin: 0
@@ -55,14 +55,26 @@ p
     max-width: 700px
 header
   text-align: center
+  
 .primary-nav
   display: none
   @media(min-width: 800px)
-    display: inline-block
-    max-width: 960px
+    display: block
+    width: 100%
+    height: 75px
+    position: fixed
+    background-color: white
+    box-shadow: 0 0 6px #444
+    z-index: 10
+    
+.primary-nav-wrapper
+  max-width: 960px
+  margin: 0 auto
     
     
-    
+.site-inner
+  @media(min-width: 800px)
+    padding-top: 75px   
     
     
 .nav-logo
@@ -169,6 +181,7 @@ header
   
 .divider
   width: 50%
+  height: 50px
   display: block
   margin: 0 auto
   padding: 10px 0
@@ -194,16 +207,16 @@ header
   border: 2px solid white
   
 .leader
-  background-image: url(../img/photos/kawaguchiko-mobile.jpg)
+  background-image: url(../img/photos/fuji-rock-mobile.jpg)
   height: 400px
   background-size: cover
-  background-position: center
+  background-position: top
   @media(min-width:800px)
-    background-image: url(../img/photos/kawaguchiko.JPG)
+    background-image: url(../img/photos/fuji-rock.jpg)
     height: 60vh
     max-height: 700px
   
-.about  
+.about-home 
   background-image: url(../img/photos/team-mobile.jpg)
   background-size: cover
   padding: 100px 10px
@@ -445,18 +458,62 @@ footer
   color: white
   display: block
   font-size: 12px
-
-//about page
-
-.about-page
-  background-image: url(../img/photos/two-shot-mobile.jpg)
+//generic page styles
+.page-splash
   background-size: cover
   padding: 100px 10px
   @media(min-width:800px)
-    background-image: url(../img/photos/two-shot.jpg)
     background-position: top
     padding: 200px 10px
+
+.center-wrapper
+  display: block
+  @media(min-width:800px)
+    margin: 0 auto
+    display: flex
+    justify-content: space-around
+    max-width: 1200px
+.half-pic-half-text-text
+  text-align: center
+  width: 96%
+  margin: 40px auto 60px auto 
+  
+  @media(min-width:800px)
+    width: 48%
+    height: 400px
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    margin: 0
+  
+  
+
+.half-pic-half-text-pic
+  margin: 0 auto
+  width: 94%
+  height: 400px
+  background-size: cover
+  @media(min-width:800px)
+    width: 48%
+    height: 400px
+    
+.reverse
+  flex-direction: row-reverse
+  
+
+
+
+
+
+  
+//about page
 .about-splash
+  background-image: url(../img/photos/two-shot-mobile.jpg)
+  @media(min-width:800px)
+    background-image: url(../img/photos/two-shot.jpg)
+    
+.page-background
   background-image: url(../img/photos/team-group-mobile.jpg)
   background-size: cover
   padding: 100px 10px
@@ -464,8 +521,7 @@ footer
   @media(min-width:800px)
     background-image: url(../img/photos/team-group.jpg)
     padding: 200px 10px
-.about-nobackground
-  
+.page-nobackground
   background-size: cover
   padding: 100px 10px
   background-position: center
@@ -473,13 +529,28 @@ footer
     
     padding: 200px 10px
     
-.team
+.page-team
   padding: 20px 0
   @media(min-width: 800px)
     padding: 50px 0
-  
+.page-half-text-1
+  padding: 20px 0
+  @media(min-width: 800px)
+    padding: 50px 0 0 0
+.page-half-text-2
+  padding: 20px 0
+  @media(min-width: 800px)
+    padding: 50px 0 0 0
+.page-half-text-3
+  padding: 20px 0
+  @media(min-width: 800px)
+    padding: 50px 0 
+.page-japan 
+  padding: 20px 0
+  @media(min-width: 800px)
+    padding: 50px 0
     
-.team-members-wrapper
+.half-half
   display: block
   @media(min-width: 800px)
     width: 100%
@@ -487,7 +558,7 @@ footer
     display: flex
     justify-content: space-around
     margin: 0 auto
-.team-member-outer-wrapper
+.half-half-outer-wrapper
   width: 100%
   display: block
   padding: 0 10px
@@ -496,7 +567,10 @@ footer
     box-sizing: border-box
     width: 398px
     display: inline-block
-.team-member-inner-wrapper
+    
+.half-half-outer-wrapper-page-japan
+  
+.half-half-inner-wrapper
   width: 100%
   height: 300px
   display: flex
@@ -505,27 +579,60 @@ footer
   flex-direction: column
   box-sizing: content-box
   margin: 20px auto 0 auto
-  
   @media(min-width: 800px)
     height: 380px
     width: 380px
-    
-.team-memeber-description
+
+.half-half-inner-wrapper-page-japan
+  height: auto
+  width: 100%
+.half-half-description
   width: 100%
   padding-top: 20px
   @media(min-width: 800px)
     width: 90%
     
-
-
+.inside-description
+  box-sizing: border-box
+  padding-left: 10px
+  padding-right: 10px
 .ben
   background-image: url(../img/photos/ben.jpg)
 .james
   background-image: url(../img/photos/james.jpg)
   
-
+//japan
+.japan-splash
+  background-image: url(../img/photos/japan-splash-mobile.jpg)
+  @media(min-width:800px)
+    background-image: url(../img/photos/japan-splash.jpg)
+.colors
+  background-image: url(../img/photos/trees.jpg)
   
+//contact
+.contact-splash
+  background-image: url(../img/photos/flower-mobile.jpg)
+  @media(min-width:800px)
+    background-image: url(../img/photos/flower.jpg)
+//tour-types
+.tour-types-splash
+  background-image: url(../img/photos/road-bend-mobile.jpg)
+  background-position: bottom
+  @media(min-width:800px)
+    background-image: url(../img/photos/road-bend.jpg)
+    
+//Destinations
+.destinations-splash
+  background-image: url(../img/photos/rice-fields-mobile.jpg)
+  background-position: bottom
+  @media(min-width:800px)
+    background-image: url(../img/photos/rice-fields.jpg)
 
-  
+//booking
+.booking-splash
+  background-image: url(../img/photos/roof-mobile.jpg)
+
+  @media(min-width:800px)
+    background-image: url(../img/photos/roof.jpg)
 
   

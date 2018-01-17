@@ -66,6 +66,16 @@
 		"oAP": "\/destinations.html",
 		"oF": 0
 		},
+	"\/img\/design-elements\/amakusa-divider.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/amakusa-divider.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/insta.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -157,6 +167,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/flower-mobile.jpg": {
+		"ft": 16384,
+		"iS": 59342,
+		"oA": 0,
+		"oAP": "\/img\/photos\/flower-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/flower.jpg": {
+		"ft": 16384,
+		"iS": 140775,
+		"oA": 0,
+		"oAP": "\/img\/photos\/flower.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/fuji-mobile.jpg": {
 		"ft": 16384,
 		"iS": 265685,
@@ -165,6 +195,26 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/fuji-rock-mobile.jpg": {
+		"ft": 16384,
+		"iS": 55256,
+		"oA": 0,
+		"oAP": "\/img\/photos\/fuji-rock-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/fuji-rock.jpg": {
+		"ft": 16384,
+		"iS": 173170,
+		"oA": 0,
+		"oAP": "\/img\/photos\/fuji-rock.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/photos\/fuji.JPG": {
@@ -337,6 +387,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/japan-splash-mobile.jpg": {
+		"ft": 16384,
+		"iS": 50270,
+		"oA": 0,
+		"oAP": "\/img\/photos\/japan-splash-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/japan-splash.jpg": {
+		"ft": 16384,
+		"iS": 131303,
+		"oA": 0,
+		"oAP": "\/img\/photos\/japan-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/kawaguchiko-mobile.jpg": {
 		"ft": 16384,
 		"iS": 124589,
@@ -412,6 +482,66 @@
 		"iS": 43833,
 		"oA": 0,
 		"oAP": "\/img\/photos\/old-bike.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/rice-fields-mobile.jpg": {
+		"ft": 16384,
+		"iS": 101100,
+		"oA": 0,
+		"oAP": "\/img\/photos\/rice-fields-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/rice-fields.jpg": {
+		"ft": 16384,
+		"iS": 297492,
+		"oA": 0,
+		"oAP": "\/img\/photos\/rice-fields.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/road-ben-mobile.jpg": {
+		"ft": 16384,
+		"iS": 111567,
+		"oA": 0,
+		"oAP": "\/img\/photos\/road-ben-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/road-bend.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/photos\/road-bend.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/roof-mobile.jpg": {
+		"ft": 16384,
+		"iS": 99218,
+		"oA": 0,
+		"oAP": "\/img\/photos\/roof-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/roof.jpg": {
+		"ft": 16384,
+		"iS": 247953,
+		"oA": 0,
+		"oAP": "\/img\/photos\/roof.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -502,6 +632,16 @@
 		"iS": 6460928,
 		"oA": 0,
 		"oAP": "\/img\/photos\/tohoku-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/trees.jpg": {
+		"ft": 16384,
+		"iS": 73317,
+		"oA": 0,
+		"oAP": "\/img\/photos\/trees.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
