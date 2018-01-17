@@ -447,6 +447,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/team-group-mobile.jpg": {
+		"ft": 16384,
+		"iS": 93262,
+		"oA": 0,
+		"oAP": "\/img\/photos\/team-group-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/team-group.jpg": {
+		"ft": 16384,
+		"iS": 190691,
+		"oA": 0,
+		"oAP": "\/img\/photos\/team-group.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/team-mobile.jpg": {
 		"ft": 16384,
 		"iS": 144872,
@@ -482,6 +502,16 @@
 		"iS": 6460928,
 		"oA": 0,
 		"oAP": "\/img\/photos\/tohoku-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/two-shot-mobile.jpg": {
+		"ft": 16384,
+		"iS": 64418,
+		"oA": 0,
+		"oAP": "\/img\/photos\/two-shot-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

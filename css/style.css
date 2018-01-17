@@ -241,16 +241,6 @@ header {
       background-image: url(../img/photos/team.jpg);
       padding: 200px 10px; } }
 
-.about-page {
-  background-image: url(../img/photos/team-mobile.jpg);
-  background-size: cover;
-  padding: 100px 10px; }
-  @media (min-width: 800px) {
-    .about-page {
-      background-image: url(../img/photos/two-shot.jpg);
-      background-position: top;
-      padding: 200px 10px; } }
-
 .slogan {
   background-image: url(../img/photos/fuji.JPG);
   background-size: cover;
@@ -548,9 +538,94 @@ footer {
   display: block;
   font-size: 12px; }
 
-.team-member {
-  height: 400px;
-  width: 400px;
-  border-radius: 50%;
-  float: left;
+.about-page {
+  background-image: url(../img/photos/two-shot-mobile.jpg);
+  background-size: cover;
+  padding: 100px 10px; }
+  @media (min-width: 800px) {
+    .about-page {
+      background-image: url(../img/photos/two-shot.jpg);
+      background-position: top;
+      padding: 200px 10px; } }
+
+.about-splash {
+  background-image: url(../img/photos/team-group-mobile.jpg);
+  background-size: cover;
+  padding: 100px 10px;
+  background-position: center; }
+  @media (min-width: 800px) {
+    .about-splash {
+      background-image: url(../img/photos/team-group.jpg);
+      padding: 200px 10px; } }
+
+.about-nobackground {
+  background-size: cover;
+  padding: 100px 10px;
+  background-position: center; }
+  @media (min-width: 800px) {
+    .about-nobackground {
+      padding: 200px 10px; } }
+
+.team {
+  padding: 20px 0; }
+  @media (min-width: 800px) {
+    .team {
+      padding: 50px 0; } }
+
+.team-members-wrapper {
+  display: block; }
+  @media (min-width: 800px) {
+    .team-members-wrapper {
+      width: 100%;
+      max-width: 960px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      margin: 0 auto; } }
+
+.team-member-outer-wrapper {
+  width: 100%;
+  display: block;
+  padding: 0 10px;
+  box-sizing: border-box; }
+  @media (min-width: 800px) {
+    .team-member-outer-wrapper {
+      box-sizing: border-box;
+      width: 398px;
+      display: inline-block; } }
+
+.team-member-inner-wrapper {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  box-sizing: content-box;
+  margin: 20px auto 0 auto; }
+  @media (min-width: 800px) {
+    .team-member-inner-wrapper {
+      height: 380px;
+      width: 380px; } }
+
+.team-memeber-description {
+  width: 100%;
+  padding-top: 20px; }
+  @media (min-width: 800px) {
+    .team-memeber-description {
+      width: 90%; } }
+
+.ben {
   background-image: url(../img/photos/ben.jpg); }
+
+.james {
+  background-image: url(../img/photos/james.jpg); }
