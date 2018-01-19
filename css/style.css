@@ -68,7 +68,7 @@ header {
     .primary-nav {
       display: block;
       width: 100%;
-      height: 75px;
+      height: 60px;
       position: fixed;
       background-color: white;
       box-shadow: 0 0 6px #444;
@@ -80,10 +80,10 @@ header {
 
 @media (min-width: 800px) {
   .site-inner {
-    padding-top: 75px; } }
+    padding-top: 60px; } }
 
 .nav-logo {
-  width: 25%;
+  width: 200px;
   vertical-align: middle;
   display: inline-block; }
 
@@ -189,10 +189,6 @@ header {
   z-index: 1;
   color: #1F3566; }
 
-.leader {
-  padding-top: 10px;
-  text-align: center; }
-
 .title-accent {
   display: none; }
   @media (min-width: 1000px) {
@@ -237,6 +233,8 @@ header {
   border: 2px solid white; }
 
 .leader {
+  padding-top: 10px;
+  text-align: center;
   background-image: url(../img/photos/fuji-rock-mobile.jpg);
   height: 400px;
   background-size: cover;
@@ -244,7 +242,7 @@ header {
   @media (min-width: 800px) {
     .leader {
       background-image: url(../img/photos/fuji-rock.jpg);
-      height: 60vh;
+      height: calc(100vh - 60px);
       max-height: 700px; } }
 
 .about-home {
@@ -559,7 +557,23 @@ footer {
   @media (min-width: 800px) {
     .page-splash {
       background-position: top;
-      padding: 200px 10px; } }
+      padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      height: calc(100vh - 60px); }
+      .page-splash h2 {
+        text-shadow: 2px 2px 5px #000000; } }
 
 .center-wrapper {
   display: block; }
