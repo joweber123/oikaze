@@ -242,8 +242,7 @@ header {
   @media (min-width: 800px) {
     .leader {
       background-image: url(../img/photos/fuji-rock.jpg);
-      height: calc(100vh - 60px);
-      max-height: 700px; } }
+      height: calc(100vh - 60px); } }
 
 .about-home {
   background-image: url(../img/photos/team-mobile.jpg);
