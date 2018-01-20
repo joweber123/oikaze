@@ -86,6 +86,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/japanese-background-1.jpg": {
+		"ft": 16384,
+		"iS": 309685,
+		"oA": 0,
+		"oAP": "\/img\/design-elements\/japanese-background-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/design-elements\/japanese-background.png": {
 		"ft": 32768,
 		"iS": 2135060,
@@ -95,6 +105,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/design-elements\/japanese-bg-1.jpg": {
+		"ft": 16384,
+		"iS": 130536,
+		"oA": 0,
+		"oAP": "\/img\/design-elements\/japanese-bg-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/design-elements\/logo-4-white.png": {
@@ -699,6 +719,16 @@
 		"oAP": "\/japan.html",
 		"oF": 0
 		},
+	"\/japanese-background-1.jpg": {
+		"ft": 16384,
+		"iS": 129028,
+		"oA": 0,
+		"oAP": "\/japanese-background-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/js\/functions-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -732,10 +762,10 @@
 		"oAP": "\/legal.html",
 		"oF": 0
 		},
-	"\/tour-types.html": {
+	"\/style.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/tour-types.html",
+		"oAP": "\/style.html",
 		"oF": 0
 		}
 	},

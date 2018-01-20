@@ -212,13 +212,15 @@ header {
   max-width: 700px; }
 
 .btn {
-  padding: 5px 20px;
-  border: 2px solid blue;
+  padding: 10px 30px;
+  border: 2px solid #1F3566;
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 auto 5px auto;
   text-align: center;
   -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out; }
+  transition: .5s ease-in-out;
+  color: #1F3566;
+  background-color: rgba(255, 255, 255, 0.5); }
 
 .btn:hover {
   background-color: rgba(255, 255, 255, 0.5);
@@ -230,7 +232,8 @@ header {
 
 .btn-white {
   color: white;
-  border: 2px solid white; }
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0); }
 
 .leader {
   padding-top: 10px;
@@ -323,11 +326,13 @@ header {
   background-image: url(../img/photos/kyushuu.JPG);
   background-size: cover; }
 
-.tour-types {
-  padding-bottom: 50px; }
+.ride-style {
+  padding: 100px 10px;
+  background-image: url(../img/design-elements/japanese-bg-1.jpg);
+  background-position: center; }
   @media (min-width: 1000px) {
-    .tour-types {
-      padding: 80px 0; } }
+    .ride-style {
+      padding: 200px 10px; } }
 
 .tour-types-wrapper {
   width: 90%;
@@ -761,11 +766,11 @@ footer {
     .contact-splash {
       background-image: url(../img/photos/flower.jpg); } }
 
-.tour-types-splash {
+.style-splash {
   background-image: url(../img/photos/road-bend-mobile.jpg);
   background-position: bottom; }
   @media (min-width: 800px) {
-    .tour-types-splash {
+    .style-splash {
       background-image: url(../img/photos/road-bend.jpg); } }
 
 .destinations-splash {

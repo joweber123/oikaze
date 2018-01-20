@@ -188,12 +188,15 @@ header
   max-width: 700px
 
 .btn
-  padding: 5px 20px
-  border: 2px solid blue
+  padding: 10px 30px
+  border: 2px solid $base-color
   display: inline-block
-  margin: 0 auto
+  margin: 0 auto 5px auto
   text-align: center
   transition: .5s ease-in-out
+  color: $base-color
+  background-color: rgba(255,255,255, 0.5)
+  
 .btn:hover
   background-color: rgba(255,255,255, 0.5)
   transition: .2s ease-in-out
@@ -205,6 +208,7 @@ header
 .btn-white
   color: white
   border: 2px solid white
+  background-color: rgba(255,255,255, 0)
   
 .leader
   padding-top: 10px
@@ -278,10 +282,15 @@ header
   background-size: cover
 
 //tour types
-.tour-types
-  padding-bottom: 50px
+.ride-style
+  padding: 100px 10px
+  background-image: url(../img/design-elements/japanese-bg-1.jpg)
+  background-position: center
   @media(min-width: 1000px)
-    padding: 80px 0
+    
+    padding: 200px 10px
+    
+
 .tour-types-wrapper
   width: 90%
   margin: 0 auto
@@ -625,7 +634,7 @@ footer
   @media(min-width:800px)
     background-image: url(../img/photos/flower.jpg)
 //tour-types
-.tour-types-splash
+.style-splash
   background-image: url(../img/photos/road-bend-mobile.jpg)
   background-position: bottom
   @media(min-width:800px)
