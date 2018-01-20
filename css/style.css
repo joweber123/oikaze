@@ -328,8 +328,10 @@ header {
 
 .ride-style {
   padding: 100px 10px;
-  background-image: url(../img/design-elements/japanese-bg-1.jpg);
-  background-position: center; }
+  background-image: url(../img/design-elements/flower-bg-1.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover; }
   @media (min-width: 1000px) {
     .ride-style {
       padding: 200px 10px; } }
