@@ -236,6 +236,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/oi-kanji-01-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/oi-kanji-01-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/sumi-divider-orange.png": {
 		"ft": 32768,
 		"iS": 1461,
@@ -365,6 +375,26 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/hokkaido-destination-2.jpg": {
+		"ft": 16384,
+		"iS": 44457,
+		"oA": 0,
+		"oAP": "\/img\/photos\/hokkaido-destination-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/hokkaido-destination.jpg": {
+		"ft": 16384,
+		"iS": 41014,
+		"oA": 0,
+		"oAP": "\/img\/photos\/hokkaido-destination.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/photos\/hokkaido.JPG": {
@@ -564,7 +594,7 @@
 		"oAP": "\/img\/photos\/mountain.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/old-bike.jpg": {

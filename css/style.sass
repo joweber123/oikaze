@@ -6,7 +6,8 @@ $text-shadow-lightletters: 2px 2px 5px #000000
 
 html
   font-family: 'Oswald', sans-serif
-  
+  box-sizing: border-box
+
 a
   text-decoration: none
   font-weight: 400
@@ -20,7 +21,7 @@ h1
   @media(min-width: 400px)
     font-size: 55px
     margin: 0
-    
+
   @media(min-width: 650px)
     font-size: 90px
   @media(min-width:1000px)
@@ -39,15 +40,16 @@ h3
   font-size: 40px
   margin: 0
   font-weight: 600
+  text-shadow: $text-shadow-lightletters
   @media(min-width: 400px)
     font-size: 50px
-  
+
 h4
   color: white
   font-size: 18px
   margin: 0
   font-weight: 400
-  
+
 p
   text-align: center
   color: $base-color
@@ -58,7 +60,7 @@ p
     max-width: 700px
 header
   text-align: center
-  
+
 .primary-nav
   display: none
   @media(min-width: 800px)
@@ -69,17 +71,17 @@ header
     background-color: white
     box-shadow: 0 0 6px #444
     z-index: 10
-    
+
 .primary-nav-wrapper
   max-width: 960px
   margin: 0 auto
-    
-    
+
+
 .site-inner
   @media(min-width: 800px)
-    padding-top: 60px   
-    
-    
+    padding-top: 60px
+
+
 .nav-logo
   width: 200px
   vertical-align: middle
@@ -90,7 +92,7 @@ header
   display: block
   color: $base-color
 
-  
+
   @media(min-width: 800px)
     display: inline-block
     padding: 0 10px
@@ -101,8 +103,8 @@ header
   display: inline
 .nav-element-narrow
   font-size: 25px
-  
-  
+
+
 .nav-logo-narrow
   margin: 0 auto
   display: block
@@ -124,7 +126,7 @@ header
   border-radius: 1px
 .bar-2
   top: 18px
-.bar-3 
+.bar-3
   top: 26px
 .slide-out-nav
   position: fixed
@@ -135,7 +137,7 @@ header
   width: 45vw
   transition: .2s ease-in-out
   z-index: 100
-  
+
 .nav-element-narrow-wrapper
   padding: 30px
   position: relative
@@ -144,17 +146,17 @@ header
   left: 0
   transition: .2s ease-in-out
   animation-name: over-shoot
-  animation-duration: .2s 
+  animation-duration: .2s
 @keyframes over-shoot
   0% { width: 45vw}
   50% { width: 60vw}
   100% { width: 45vw}
-  
+
 .darken
   filter: grayscale(60%)
   background-color: #D3D3D3
 
-  
+
 .close-button
   font-size: 50px
   position: absolute
@@ -162,9 +164,9 @@ header
   right: 0
   z-index: 1
   color: $base-color
-  
 
-  
+
+
 
 .title-accent
   display: none
@@ -178,7 +180,7 @@ header
 
 .section
   text-align: center
-  
+
 .divider
   width: 50%
   height: 50px
@@ -196,20 +198,20 @@ header
   transition: .5s ease-in-out
   color: $base-color
   background-color: rgba(255,255,255, 0.5)
-  
+
 .btn:hover
   background-color: rgba(255,255,255, 0.5)
   transition: .2s ease-in-out
-  
+
 
 .white
   color: white
-  
+
 .btn-white
   color: white
   border: 2px solid white
   background-color: rgba(255,255,255, 0)
-  
+
 .leader
   padding-top: 10px
   text-align: center
@@ -220,9 +222,9 @@ header
   @media(min-width:800px)
     background-image: url(../img/photos/fuji-rock.jpg)
     height: calc(100vh - 60px)
-    
-  
-.about-home 
+
+
+.about-home
   background-image: url(../img/photos/team-mobile.jpg)
   background-size: cover
   padding: 100px 10px
@@ -231,7 +233,7 @@ header
     padding: 200px 10px
 
 
-  
+
 .slogan
   background-image: url(../img/photos/fuji.JPG)
   background-size: cover
@@ -239,47 +241,75 @@ header
   @media(min-width:800px)
     background-image: url(../img/photos/fuji.JPG)
     padding: 200px 10px
-  
+
 .destinations
-  //background-image: url(../img/design-elements/japanese-background.png)
+  background-position: left
+  background-repeat: no-repeat
+  padding: 0 10px 50px 10px
+  clear: both
+  content: ""
+  display: table
+  width: 100%
+  max-width: 1200px
   background-size: cover
-  padding: 10px 10px 50px 10px
-  @media(min-width:800px)
-    padding: 60px 10px
-  
+  margin: 0 auto
+  box-sizing: border-box
+  @media(min-width: 400px)
+    padding: 50px 10px
+  @media(min-width: 800px)
+    background-image: url(../img/design-elements/oi-kanji-01-01.svg)
+
+.destinations-text-wrap
+  padding-bottom: 50px
+  @media(min-width: 800px)
+
+    width: 50%
+    max-width: 600px
+    float: left
+    padding: 160px 0
+
+.destinations-wrapper
+  float: none
+  width: 100%
+  text-align: center
+  margin: 0 auto
+  @media(min-width: 800px)
+    width: 50%
+    float: right
+
 .destination-wrapper
-  @media(min-width: 1000px)
-    margin: 0 auto
-    display: flex
-    align-items: center
-    max-width: 960px
-.destination
-  height: 300px
-  width: 90%
+  width: 95%
+  max-width: 600px
+  margin: 5px auto
+  padding: 35px 0
   display: flex
   justify-content: center
   align-items: center
   flex-direction: column
-  margin: 10px auto
-  transition: .2 ease-in-out    
-  @media(min-width: 1000px)
-    height: 300px
-    width: 300px
-    float: left
-        
-.destination:hover
-  transition: .1s 
-  transform: translateY(-3px)
+  transition: .2s ease-in-out
+  box-shadow: 1px 1px 8px #999
+  @media(min-width: 800px)
+    margin: 5px 0
+    box-shadow: none
     
+.destination-wrapper:hover
+
+  transition: .2s ease-in-out
+  box-shadow: 1px 1px 8px #999
+.destination
+  background-size: cover
+  background-position: bottom
+
 .destination-1
   background-image: url(../img/photos/shikoku-2.JPG)
-  background-size: cover
+
 .destination-2
-  background-image: url(../img/photos/hokkaido-2.JPG)
-  background-size: cover
+  background-image: url(../img/photos/hokkaido-destination-2.jpg)
+
 .destination-3
-  background-image: url(../img/photos/kyushuu.JPG)
-  background-size: cover
+  background-image: url(../img/photos/mountain.jpg)
+
+
 
 //tour types
 .ride-style
@@ -290,10 +320,14 @@ header
   background-position: right
   background-repeat: no-repeat
   background-size: cover
+  width: 100%
+  max-width: 1200px
+  margin: 0 auto
+  box-sizing: border-box
   @media(min-width: 800px)
-    
+
     padding: 200px 10px
-    
+
 
 .tour-types-wrapper
   width: 90%
@@ -310,18 +344,18 @@ header
   align-items: center
   flex-direction: column
   margin: 10px auto
-  transition: .2 ease-in-out    
+  transition: .2 ease-in-out
   background-size: cover
   background-position: bottom
 
-        
+
 .tour-type:hover
-  transition: .1s 
+  transition: .1s
   transform: translateX(-2px)
 .tour-type:nth-child(2):hover
-  transition: .1s 
+  transition: .1s
   transform: translateX(2px)
-    
+
 .tour-type-1
   background-image: url(../img/photos/old-bike.jpg)
 
@@ -356,9 +390,9 @@ header
   padding-bottom: 50px
   @media(min-width:800px)
     padding-top: 0
-::-webkit-scrollbar 
+::-webkit-scrollbar
     display: none
-    
+
 .insta-wrapper-mobile
   height: 50px
   text-align: center
@@ -366,7 +400,7 @@ header
   display: block
   @media(min-width:800px)
     padding: 20px 0 20px 0
-  
+
 .insta-logo-mobile
   height: 50px
   width: 50px
@@ -386,7 +420,7 @@ header
     width: 302px
     background-color: rgba(255,255,255, 0.9)
     cursor: pointer
-  
+
 .hashtag
   color: $base-color
   display: inline-block
@@ -401,7 +435,7 @@ header
   height: 40px
   display: inline-block
   vertical-align: middle
-  animation-duration: 1.5s 
+  animation-duration: 1.5s
   animation-name: blink
   animation-iteration-count: infinite
   transition: ease-in-out
@@ -417,25 +451,25 @@ header
 .insta-logo
   height: 200px
   padding: 30px
-  
+
 .insta-message
   display: inline-block
-  color: 
-  
+  color:
+
   @media(min-width:800px)
     display: inline-block
     vertical-align: middle
-  
-    
-  
-  
+
+
+
+
 .insta-img
   display: inline-block
   background-size: cover
   height: 300px
   width: 300px
 
-    
+
 .insta-img-1
   background-image: url(../img/photos/insta-1.jpg)
 .insta-img-2
@@ -459,16 +493,16 @@ footer
     color: white
     @media(min-width: 800px)
       display: inline-block
-      
-    
-    
+
+
+
 .secondary-nav-logo
   display: block
   margin: 0 auto
   width: 175px
 .secondary-nav-wrapper
   text-align: center
-  
+
 .legal-link
   color: white
   display: block
@@ -487,7 +521,7 @@ footer
     height: calc(100vh - 60px)
     h2
       text-shadow: $text-shadow-lightletters
-    
+
 
 .center-wrapper
   display: block
@@ -499,8 +533,8 @@ footer
 .half-pic-half-text-text
   text-align: center
   width: 96%
-  margin: 40px auto 60px auto 
-  
+  margin: 40px auto 60px auto
+
   @media(min-width:800px)
     width: 48%
     height: 400px
@@ -509,8 +543,8 @@ footer
     align-items: center
     flex-direction: column
     margin: 0
-  
-  
+
+
 
 .half-pic-half-text-pic
   margin: 0 auto
@@ -520,22 +554,22 @@ footer
   @media(min-width:800px)
     width: 48%
     height: 400px
-    
+
 .reverse
   flex-direction: row-reverse
-  
 
 
 
 
 
-  
+
+
 //about page
 .about-splash
   background-image: url(../img/photos/two-shot-mobile.jpg)
   @media(min-width:800px)
     background-image: url(../img/photos/two-shot.jpg)
-    
+
 .page-background
   background-image: url(../img/photos/team-group-mobile.jpg)
   background-size: cover
@@ -549,9 +583,9 @@ footer
   padding: 100px 10px
   background-position: center
   @media(min-width:800px)
-    
+
     padding: 200px 10px
-    
+
 .page-team
   padding: 20px 0
   @media(min-width: 800px)
@@ -567,12 +601,12 @@ footer
 .page-half-text-3
   padding: 20px 0
   @media(min-width: 800px)
-    padding: 50px 0 
-.page-japan 
+    padding: 50px 0
+.page-japan
   padding: 20px 0
   @media(min-width: 800px)
     padding: 50px 0
-    
+
 .half-half
   display: block
   @media(min-width: 800px)
@@ -590,9 +624,9 @@ footer
     box-sizing: border-box
     width: 398px
     display: inline-block
-    
+
 .half-half-outer-wrapper-page-japan
-  
+
 .half-half-inner-wrapper
   width: 100%
   height: 300px
@@ -614,7 +648,7 @@ footer
   padding-top: 20px
   @media(min-width: 800px)
     width: 90%
-    
+
 .inside-description
   box-sizing: border-box
   padding-left: 10px
@@ -623,7 +657,7 @@ footer
   background-image: url(../img/photos/ben.jpg)
 .james
   background-image: url(../img/photos/james.jpg)
-  
+
 //japan
 .japan-splash
   background-image: url(../img/photos/japan-splash-mobile.jpg)
@@ -631,7 +665,7 @@ footer
     background-image: url(../img/photos/japan-splash.jpg)
 .colors
   background-image: url(../img/photos/trees.jpg)
-  
+
 //contact
 .contact-splash
   background-image: url(../img/photos/flower-mobile.jpg)
@@ -643,7 +677,7 @@ footer
   background-position: bottom
   @media(min-width:800px)
     background-image: url(../img/photos/road-bend.jpg)
-    
+
 //Destinations
 .destinations-splash
   background-image: url(../img/photos/rice-fields-mobile.jpg)
@@ -657,5 +691,3 @@ footer
 
   @media(min-width:800px)
     background-image: url(../img/photos/roof.jpg)
-
-  

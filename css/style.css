@@ -1,5 +1,6 @@
 html {
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box; }
 
 a {
   text-decoration: none;
@@ -38,7 +39,8 @@ h3 {
   color: white;
   font-size: 40px;
   margin: 0;
-  font-weight: 600; }
+  font-weight: 600;
+  text-shadow: 2px 2px 5px #000000; }
   @media (min-width: 400px) {
     h3 {
       font-size: 50px; } }
@@ -266,26 +268,48 @@ header {
       padding: 200px 10px; } }
 
 .destinations {
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 0 10px 50px 10px;
+  clear: both;
+  content: "";
+  display: table;
+  width: 100%;
+  max-width: 1200px;
   background-size: cover;
-  padding: 10px 10px 50px 10px; }
+  margin: 0 auto;
+  box-sizing: border-box; }
+  @media (min-width: 400px) {
+    .destinations {
+      padding: 50px 10px; } }
   @media (min-width: 800px) {
     .destinations {
-      padding: 60px 10px; } }
+      background-image: url(../img/design-elements/oi-kanji-01-01.svg); } }
 
-@media (min-width: 1000px) {
-  .destination-wrapper {
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    max-width: 960px; } }
+.destinations-text-wrap {
+  padding-bottom: 50px; }
+  @media (min-width: 800px) {
+    .destinations-text-wrap {
+      width: 50%;
+      max-width: 600px;
+      float: left;
+      padding: 160px 0; } }
 
-.destination {
-  height: 300px;
-  width: 90%;
+.destinations-wrapper {
+  float: none;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto; }
+  @media (min-width: 800px) {
+    .destinations-wrapper {
+      width: 50%;
+      float: right; } }
+
+.destination-wrapper {
+  width: 95%;
+  max-width: 600px;
+  margin: 5px auto;
+  padding: 35px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,39 +323,42 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 10px auto;
-  -webkit-transition: .2 ease-in-out;
-  transition: .2 ease-in-out; }
-  @media (min-width: 1000px) {
-    .destination {
-      height: 300px;
-      width: 300px;
-      float: left; } }
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  box-shadow: 1px 1px 8px #999; }
+  @media (min-width: 800px) {
+    .destination-wrapper {
+      margin: 5px 0;
+      box-shadow: none; } }
 
-.destination:hover {
-  -webkit-transition: .1s;
-  transition: .1s;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px); }
+.destination-wrapper:hover {
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  box-shadow: 1px 1px 8px #999; }
+
+.destination {
+  background-size: cover;
+  background-position: bottom; }
 
 .destination-1 {
-  background-image: url(../img/photos/shikoku-2.JPG);
-  background-size: cover; }
+  background-image: url(../img/photos/shikoku-2.JPG); }
 
 .destination-2 {
-  background-image: url(../img/photos/hokkaido-2.JPG);
-  background-size: cover; }
+  background-image: url(../img/photos/hokkaido-destination-2.jpg); }
 
 .destination-3 {
-  background-image: url(../img/photos/kyushuu.JPG);
-  background-size: cover; }
+  background-image: url(../img/photos/mountain.jpg); }
 
 .ride-style {
   padding: 100px 10px;
   background-image: url(../img/design-elements/kaze-kanji-01.svg);
   background-position: right;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box; }
   @media (min-width: 800px) {
     .ride-style {
       padding: 200px 10px; } }
