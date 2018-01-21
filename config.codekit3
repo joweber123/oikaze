@@ -48,7 +48,7 @@
 		"oS": 0
 		},
 	"\/css\/style.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -589,12 +589,12 @@
 		},
 	"\/img\/photos\/mountain.jpg": {
 		"ft": 16384,
-		"iS": 72392,
+		"iS": 56420,
 		"oA": 0,
 		"oAP": "\/img\/photos\/mountain.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/photos\/old-bike.jpg": {
@@ -679,7 +679,7 @@
 		},
 	"\/img\/photos\/shikoku-2.JPG": {
 		"ft": 16384,
-		"iS": 38407,
+		"iS": 45827,
 		"oA": 0,
 		"oAP": "\/img\/photos\/shikoku-2.jpg",
 		"oF": 0,
@@ -801,7 +801,7 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
-		"oF": 1
+		"oF": 0
 		},
 	"\/japan.html": {
 		"ft": 8192,
