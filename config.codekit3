@@ -76,6 +76,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/ehime.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/ehime.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/flower-bg-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -744,7 +754,7 @@
 		"oAP": "\/img\/photos\/shikoku-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/team-group-mobile.jpg": {
