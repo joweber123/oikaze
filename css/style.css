@@ -309,6 +309,9 @@ header {
 .destination-wrapper:hover {
   transition: .2s ease-in-out;
   box-shadow: 1px 1px 8px #999; }
+  .destination-wrapper:hover h3:after {
+    width: 100px;
+    transition: .2s ease-in-out; }
 
 .destination {
   background-size: cover;
@@ -323,6 +326,15 @@ header {
 
 .destination-3 {
   background-image: url(../img/photos/mountain.jpg); }
+
+h3:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  height: 2px;
+  width: 60px;
+  background-color: #fff;
+  transition: .2s ease-in-out; }
 
 .ride-style {
   padding: 100px 10px;
@@ -725,3 +737,19 @@ footer {
   @media (min-width: 800px) {
     .booking-splash {
       background-image: url(../img/photos/roof.jpg); } }
+
+.shikoku-splash {
+  background-image: url(../img/photos/two-shot-mobile.jpg); }
+  @media (min-width: 800px) {
+    .shikoku-splash {
+      background-image: url(../img/photos/shikoku-splash.jpg);
+      background-position: center; } }
+  .shikoku-splash h2 {
+    font-size: 140px;
+    line-height: 1; }
+  .shikoku-splash h2:nth-child(1) {
+    font-size: 50px;
+    opacity: .8; }
+  .shikoku-splash h2:nth-child(3) {
+    font-size: 50px;
+    opacity: .8; }

@@ -204,7 +204,7 @@ header
   transition: .2s ease-in-out
   box-shadow: 1px 1px 8px #999
 
-  
+
 
 
 .white
@@ -294,11 +294,15 @@ header
   @media(min-width: 800px)
     margin: 5px 0
     box-shadow: none
-    
+
 .destination-wrapper:hover
 
   transition: .2s ease-in-out
   box-shadow: 1px 1px 8px #999
+  h3:after
+    width: 100px
+    transition: .2s ease-in-out
+    
 .destination
   background-size: cover
   background-position: bottom
@@ -313,8 +317,14 @@ header
 .destination-3
   background-image: url(../img/photos/mountain.jpg)
 
-
-
+h3:after
+  content: ""
+  display: block
+  margin: 0 auto
+  height: 2px
+  width: 60px
+  background-color: #fff
+  transition: .2s ease-in-out
 //tour types
 .ride-style
   padding: 100px 10px
@@ -695,3 +705,20 @@ footer
 
   @media(min-width:800px)
     background-image: url(../img/photos/roof.jpg)
+//destination-general
+
+.shikoku-splash
+  background-image: url(../img/photos/two-shot-mobile.jpg)
+  @media(min-width:800px)
+    background-image: url(../img/photos/shikoku-splash.jpg)
+    background-position: center
+  h2
+    font-size: 140px
+    line-height: 1
+
+  h2:nth-child(1)
+    font-size: 50px
+    opacity: .8
+  h2:nth-child(3)
+    font-size: 50px
+    opacity: .8

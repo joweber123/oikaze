@@ -257,11 +257,51 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/design-elements\/wind.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/wind.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/photos\/ben.jpg": {
 		"ft": 16384,
 		"iS": 105737,
 		"oA": 0,
 		"oAP": "\/img\/photos\/ben.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/dest-shikoku-1.jpg": {
+		"ft": 16384,
+		"iS": 139388,
+		"oA": 0,
+		"oAP": "\/img\/photos\/dest-shikoku-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/dest-shikoku-2.jpg": {
+		"ft": 16384,
+		"iS": 66338,
+		"oA": 0,
+		"oAP": "\/img\/photos\/dest-shikoku-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/dest-shikoku-3.jpg": {
+		"ft": 16384,
+		"iS": 254421,
+		"oA": 0,
+		"oAP": "\/img\/photos\/dest-shikoku-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -697,6 +737,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/shikoku-splash.jpg": {
+		"ft": 16384,
+		"iS": 175205,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/team-group-mobile.jpg": {
 		"ft": 16384,
 		"iS": 93262,
@@ -809,16 +859,6 @@
 		"oAP": "\/japan.html",
 		"oF": 0
 		},
-	"\/japanese-background-1.jpg": {
-		"ft": 16384,
-		"iS": 129028,
-		"oA": 0,
-		"oAP": "\/japanese-background-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/js\/functions-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -850,6 +890,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/legal.html",
+		"oF": 0
+		},
+	"\/shikoku.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/shikoku.html",
 		"oF": 0
 		},
 	"\/style.html": {
