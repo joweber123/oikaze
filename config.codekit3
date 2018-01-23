@@ -66,11 +66,47 @@
 		"oAP": "\/destinations.html",
 		"oF": 0
 		},
+	"\/img\/design-elements\/3B6486542A19C1F1._t_": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/3B6486542A19C1F1._t_",
+		"oF": 0
+		},
 	"\/img\/design-elements\/amakusa-divider.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/amakusa-divider.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/calendar-shikoku-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/calendar-shikoku-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/calendar-shikoku-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/calendar-shikoku-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/calendar-shikoku.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/calendar-shikoku.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
