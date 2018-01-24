@@ -550,7 +550,7 @@ footer
   margin: 40px auto 60px auto
 
   @media(min-width:800px)
-    width: 48%
+    width: 49%
     height: 400px
     display: flex
     justify-content: center
@@ -566,7 +566,7 @@ footer
   height: 400px
   background-size: cover
   @media(min-width:800px)
-    width: 48%
+    width: 49%
     height: 400px
 
 .reverse
@@ -741,7 +741,7 @@ footer
       line-height: 1.1
 
 .story p
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif
 .tour-details
   margin: 0 auto
   width: 98%
@@ -753,12 +753,26 @@ footer
   background-image: url(../img/design-elements/shikoku-map.svg)
   background-size: contain
   background-repeat: no-repeat
+.story-vertical-picture
+  height: 500px
+  background-position: bottom right
+  @media(min-width:400px)
+    height: 900px
+  @media(min-width:800px)
+    height: 800px
+.story-vertical-text
+  
+  @media(min-width:800px)
+    height: 800px
+    
+
 
 .page-background.shikoku
   background-image: url(../img/photos/shikoku-story/river-1.jpg)
 
   @media(min-width:800px)
     background-image: url(../img/photos/shikoku-story/river-1.jpg)
+    background-size: auto
 .shikoku-story-pictures
   background-image: url(../img/photos/trees.jpg)
 .ben-bike-sakura
@@ -773,9 +787,53 @@ footer
   background-image: url(../img/photos/shikoku-story/koi-nobori.jpg)
 .tori-waterfall
   background-image: url(../img/photos/shikoku-story/tori-waterfall.jpg)
+.small-waterfall
+  background-image: url(../img/photos/shikoku-story/small-waterfall.jpg)
 .village-james-in-distance
   background-image: url(../img/photos/shikoku-story/village-james-in-distance.jpg)
 .three-shot
   background-image: url(../img/photos/shikoku-story/three-shot.jpg)
 .town-distance
   background-image: url(../img/photos/shikoku-story/town-distance.jpg)
+.ben-bike-waterfall
+  background-image: url(../img/photos/shikoku-story/ben-bike-waterfall.jpg)
+.tunnel-entrance
+  background-image: url(../img/photos/shikoku-story/tunnel-entrance.jpg)
+.four-picture-wrapper
+  
+  @media(min-width:800px)
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    width: 98%
+    max-width: 1200px
+    margin: 0 auto
+  .two-picture-wrapper
+
+    @media(min-width:400px)
+    width: 94%
+    margin: 0 auto
+    clear: both
+    content: ""
+    display: table
+    @media(min-width:800px)
+      width: 50%
+    
+    .picture-text-wrapper
+      width: 100%
+      margin: 0 auto
+      @media(min-width:400px)
+        width: 50%
+        float: left
+      .four-picture
+        width: 100%
+        height: 500px
+        background-size: cover
+        margin: 0 auto
+        @media(min-width:400px)
+          height: 450px
+          width: 98%
+          
+          
+    
+    
