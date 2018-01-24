@@ -66,12 +66,6 @@
 		"oAP": "\/destinations.html",
 		"oF": 0
 		},
-	"\/img\/design-elements\/3B6486542A19C1F1._t_": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/3B6486542A19C1F1._t_",
-		"oF": 0
-		},
 	"\/img\/design-elements\/amakusa-divider.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -287,6 +281,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/oi-kanji-01-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/shikoku-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/shikoku-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -791,6 +795,166 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/ben-bike-greenwall.jpg": {
+		"ft": 16384,
+		"iS": 403416,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/ben-bike-greenwall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/ben-bike-sakura.jpg": {
+		"ft": 16384,
+		"iS": 352824,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/ben-bike-sakura.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/ben-bike-waterfall.jpg": {
+		"ft": 16384,
+		"iS": 451075,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/ben-bike-waterfall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/bridge.jpg": {
+		"ft": 16384,
+		"iS": 186544,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/bridge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/james-stretching.jpg": {
+		"ft": 16384,
+		"iS": 277874,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/james-stretching.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/japan_map.jpg": {
+		"ft": 16384,
+		"iS": 67618,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/japan_map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/koi-nobori.jpg": {
+		"ft": 16384,
+		"iS": 340005,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/koi-nobori.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/lake-scenery.jpg": {
+		"ft": 16384,
+		"iS": 195088,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/lake-scenery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/river-1.jpg": {
+		"ft": 16384,
+		"iS": 278438,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/river-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/small-waterfall.jpg": {
+		"ft": 16384,
+		"iS": 370943,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/small-waterfall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/three-shot.jpg": {
+		"ft": 16384,
+		"iS": 190421,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/three-shot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/tori-waterfall.jpg": {
+		"ft": 16384,
+		"iS": 516867,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/tori-waterfall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/town-distance.jpg": {
+		"ft": 16384,
+		"iS": 157187,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/town-distance.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/tunnel-entrance.jpg": {
+		"ft": 16384,
+		"iS": 346320,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/tunnel-entrance.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/two-shot-standing-with-bikes.jpg": {
+		"ft": 16384,
+		"iS": 214452,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/two-shot-standing-with-bikes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-story\/village-james-in-distance.jpg": {
+		"ft": 16384,
+		"iS": 206346,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-story\/village-james-in-distance.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/photos\/team-group-mobile.jpg": {
