@@ -21,6 +21,24 @@
 		"oAP": "\/booking.html",
 		"oF": 0
 		},
+	"\/chiba.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/chiba.html",
+		"oF": 0
+		},
+	"\/chubu.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/chubu.html",
+		"oF": 0
+		},
+	"\/chugoku.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/chugoku.html",
+		"oF": 0
+		},
 	"\/contact.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -64,6 +82,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/destinations.html",
+		"oF": 0
+		},
+	"\/hokkaido.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/hokkaido.html",
 		"oF": 0
 		},
 	"\/img\/design-elements\/amakusa-divider.svg": {
@@ -131,6 +155,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/insta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/japan-full-map-edited.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/japan-full-map-edited.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/japan-full-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/japan-full-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1063,6 +1107,18 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/izu.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/izu.html",
+		"oF": 0
+		},
+	"\/japan-sea.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/japan-sea.html",
+		"oF": 0
+		},
 	"\/japan.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1096,10 +1152,40 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/kansai.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kansai.html",
+		"oF": 0
+		},
+	"\/kanto.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kanto.html",
+		"oF": 0
+		},
+	"\/kyushu.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kyushu.html",
+		"oF": 0
+		},
 	"\/legal.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/legal.html",
+		"oF": 0
+		},
+	"\/minami-alps.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/minami-alps.html",
+		"oF": 0
+		},
+	"\/okinawa.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/okinawa.html",
 		"oF": 0
 		},
 	"\/shikoku.html": {
@@ -1112,6 +1198,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/style.html",
+		"oF": 0
+		},
+	"\/tohoku.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tohoku.html",
 		"oF": 0
 		}
 	},

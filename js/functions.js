@@ -13,7 +13,14 @@ $(".close-button").click(function(){
 
 });
 
+document.getElementById("hokkaido").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("pref-name").innerHTML = "YOU CLICKED ME!";
+}
+
 var container = document.querySelector('.instagram-feed');
+
 
 var cloneImg1 = document.querySelector('.insta-img-1').cloneNode(false);
 var cloneImg1c2 = document.querySelector('.insta-img-1').cloneNode(false);
@@ -69,4 +76,6 @@ function scrolling() {
     container.scrollLeft = sliderStartForward;
   }
 }
+
+
 

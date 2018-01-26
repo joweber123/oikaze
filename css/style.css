@@ -318,13 +318,13 @@ header {
   background-position: bottom;
   opacity: .9; }
 
-.destination-1 {
+.shikoku {
   background-image: url(../img/photos/shikoku-2.JPG); }
 
-.destination-2 {
+.hokkaido {
   background-image: url(../img/photos/hokkaido-destination-2.jpg); }
 
-.destination-3 {
+.kyushu {
   background-image: url(../img/photos/mountain.jpg); }
 
 h3:after {
@@ -791,7 +791,7 @@ footer {
   @media (min-width: 800px) {
     .page-background.shikoku {
       background-image: url(../img/photos/shikoku-story/river-1.jpg);
-      background-size: aut0; } }
+      background-size: auto; } }
 
 .shikoku-story-pictures {
   background-image: url(../img/photos/trees.jpg); }
@@ -866,3 +866,92 @@ footer {
         .four-picture-wrapper .two-picture-wrapper .picture-text-wrapper .four-picture {
           height: 450px;
           width: 98%; } }
+
+.destinations-row-wrapper {
+  margin: 0 auto;
+  max-width: 98%;
+  display: block; }
+  @media (min-width: 750px) {
+    .destinations-row-wrapper {
+      width: 1200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; } }
+
+.destination-page {
+  width: 95%;
+  margin: 5px auto;
+  max-width: 500px;
+  padding: 35px 0;
+  background-size: cover;
+  display: block; }
+  @media (min-width: 750px) {
+    .destination-page {
+      width: 33%;
+      padding: 80px 0; } }
+
+.padding-bottom {
+  padding: 0; }
+  @media (min-width: 800px) {
+    .padding-bottom {
+      padding-bottom: 50px; } }
+
+.destinations-map {
+  width: 50%;
+  max-width: 600px; }
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 50px; }
+
+.flex-container {
+  margin: 30px 0; }
+
+.map {
+  display: none; }
+  @media (min-width: 750px) {
+    .map {
+      display: inline;
+      width: 600px;
+      height: 600px; } }
+
+#hokkaido:hover {
+  fill: pink; }
+
+#tohoku:hover {
+  fill: blue; }
+
+#chiba:hover {
+  fill: green; }
+
+#kyushu:hover {
+  fill: gray; }
+
+#shikoku:hover {
+  fill: red; }
+
+#okinawa:hover {
+  fill: red; }
+
+#minami-alps:hover {
+  fill: brown; }
+
+#izu:hover {
+  fill: orange; }
+
+#kansai:hover {
+  fill: salmon; }
+
+#kanto:hover {
+  fill: purple; }
+
+#japan-sea:hover {
+  fill: teal; }
+
+#chubu:hover {
+  fill: gold; }
+
+#chugoku:hover {
+  fill: silver; }
