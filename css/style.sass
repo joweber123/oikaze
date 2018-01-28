@@ -3,6 +3,9 @@ $base-color: #1F3566
 $secondary-color: #CB704A
 $text-shadow-darkletters: 2px 2px 5px #000000
 $text-shadow-lightletters: 2px 2px 5px #000000
+$hover-letters: #D00014
+$base-map-letter: #0282C8
+$transparent: rgba(255,255,255, 0)
 
 html
   font-family: 'Oswald', sans-serif
@@ -308,15 +311,30 @@ header
   background-position: bottom
   opacity: .9
 
-.shikoku
-  background-image: url(../img/photos/shikoku-2.JPG)
+.shikoku-thumb
+  background-image: url(../img/photos/shikoku-destination-thumb.JPG)
 
-.hokkaido
-  background-image: url(../img/photos/hokkaido-destination-2.jpg)
+.hokkaido-thumb
+  background-image: url(../img/photos/hokkaido-destination-thumb.jpg)
 
-.kyushu
-  background-image: url(../img/photos/mountain.jpg)
-
+.kyushu-thumb
+  background-image: url(../img/photos/kyushu-destination-thumb.jpg)
+.tohoku-thumb
+  background-image: url(../img/photos/tohoku-destination-thumb.jpg)
+  background-position: center
+.minami-alps-thumb
+  background-image: url(../img/photos/minami-alps-destination-thumb.jpg)
+  background-position: left
+.kanto-thumb
+  background-image: url(../img/photos/kanto-destination-thumb.jpg)
+  background-position: right
+.japan-sea-thumb
+  background-image: url(../img/photos/japan-sea-destination-thumb.jpg)
+  background-position: center
+.kansai-thumb
+  background-image: url(../img/photos/kansai-destination-thumb.jpg)
+.okinawa-thumb
+  background-image: url(../img/photos/okinawa-destination-thumb.jpg)
 h3:after
   content: ""
   display: block
@@ -710,10 +728,35 @@ footer
 
 .shikoku-splash
   background-image: url(../img/photos/shikoku-splash.jpg)
-
-
-
-
+  background-position: center
+.tohoku-splash
+  background-image: url(../img/photos/tohoku-splash.jpg)
+  background-position: center
+.minami-alps-splash
+  background-image: url(../img/photos/minami-alps-splash.jpg)
+  background-position: center
+.kanto-splash
+  background-image: url(../img/photos/kanto-splash.jpg)
+  background-position: center
+.japan-sea-splash
+  background-image: url(../img/photos/japan-sea-splash.jpg)
+  background-position: center
+.kansai-splash
+  background-image: url(../img/photos/kansai-splash.jpg)
+  background-position: center
+.okinawa-splash
+  background-image: url(../img/photos/okinawa-splash.jpg)
+  background-position: center
+.kyushu-splash
+  background-image: url(../img/photos/kyushu-splash.jpg)
+  background-position: center
+.hokkaido-splash
+  background-image: url(../img/photos/hokkaido-splash.jpg)
+  background-position: center
+.kyushu-splash
+  background-image: url(../img/photos/kyushu-splash.jpg)
+  background-position: center
+.splash-text
   h2
     text-shadow: none
     color: white
@@ -857,11 +900,18 @@ footer
     width: 33%
     padding: 80px 0
     
+.destination-page:hover
+  transition: .2s ease-in-out
+  box-shadow: 1px 1px 8px #999
+  h3:after
+    width: 100px
+    transition: .2s ease-in-out
 .padding-bottom
   padding: 0
   @media(min-width: 800px)
     padding-bottom: 50px
-    
+.padding-bottom-mobile
+  padding-bottom: 50px    
 .destinations-map
   width: 50%
   max-width: 600px
@@ -872,44 +922,93 @@ footer
   padding: 0 50px
   
 .flex-container
-  margin: 30px 0
+  display: block
+  @media(min-width:750px)
+    display: flex
+    margin: 30px auto
+    justify-content: center
+    width: 98%
+    max-width: 1200px
+  
+  
 
-
+.text-container
+  width: 98%
+  margin: 0 auto
+  @media(min-width:750px)
+    width: 40%
+    padding-top: 200px
+    background-image: url(../img/design-elements/oi-kaze-vertical-background.svg) 
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
     
 .map
-  display: none
+  width: 300px
+  height: 300px
   @media(min-width:750px)
     display: inline
     width: 600px
     height: 600px
-  
 
+.hokkaido-letters
+  fill: $base-map-letter
+.base-color
+  fill: #203566
 #hokkaido:hover
-  fill: pink
+  fill: #528D71
+  .hokkaido-letters
+    fill: $hover-letters
 
-
+.tohoku-letters
+  fill: $base-map-letter
 #tohoku:hover
-  fill: blue
-  
-#chiba:hover
-  fill: green
+  fill: #99734C
+  .tohoku-letters
+    fill: $hover-letters
+
+.kyushu-letters
+  fill: $base-map-letter
 #kyushu:hover
-  fill: gray
+  fill: #6A526A
+  .kyushu-letters
+    fill: $hover-letters
+.shikoku-letters
+  fill: $base-map-letter
 #shikoku:hover
-  fill: red
+  fill: #008080
+  .shikoku-letters
+    fill: $hover-letters
+.okinawa-letters
+  fill: $base-map-letter
 #okinawa:hover
-  fill: red
+  fill: #3B4D61
+  .okinawa-letters
+    fill: $hover-letters
+.minami-alps-letters
+  fill: $base-map-letter
 #minami-alps:hover
-  fill: brown
-#izu:hover
-  fill: orange
+  fill: #D2775A
+  .minami-alps-letters
+    fill: $hover-letters
+
+.kansai-letters
+  fill: $base-map-letter
 #kansai:hover
-  fill: salmon
+  fill: #528D71
+  .kansai-letters
+    fill: $hover-letters
+.kanto-letters
+  fill: $base-map-letter
 #kanto:hover
-  fill: purple
+  fill: #028E86
+  .kanto-letters
+    fill: $hover-letters
+.japan-sea-letters
+  fill: $base-map-letter
 #japan-sea:hover
-  fill: teal
-#chubu:hover
-  fill: gold
-#chugoku:hover
-  fill: silver
+  fill: #0282C8
+  .japan-sea-letters
+    fill: $hover-letters
+
+

@@ -170,11 +170,41 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/japan-full-map-letters.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/japan-full-map-letters.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/japan-full-map-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/japan-full-map-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/japan-full-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/japan-full-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/japan-map-clickable.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/japan-map-clickable.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -325,6 +355,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/oi-kanji-01-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/oi-kaze-vertical-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/oi-kaze-vertical-background.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -511,11 +551,11 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/photos\/hokkaido-destination-2.jpg": {
+	"\/img\/photos\/hokkaido-destination-thumb.jpg": {
 		"ft": 16384,
 		"iS": 44457,
 		"oA": 0,
-		"oAP": "\/img\/photos\/hokkaido-destination-2.jpg",
+		"oAP": "\/img\/photos\/hokkaido-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -526,6 +566,16 @@
 		"iS": 41014,
 		"oA": 0,
 		"oAP": "\/img\/photos\/hokkaido-destination.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/hokkaido-splash.jpg": {
+		"ft": 16384,
+		"iS": 654518,
+		"oA": 0,
+		"oAP": "\/img\/photos\/hokkaido-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -641,6 +691,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/japan-sea-destination-thumb.jpg": {
+		"ft": 16384,
+		"iS": 46520,
+		"oA": 0,
+		"oAP": "\/img\/photos\/japan-sea-destination-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/japan-sea-splash.jpg": {
+		"ft": 16384,
+		"iS": 375464,
+		"oA": 0,
+		"oAP": "\/img\/photos\/japan-sea-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/japan-splash-mobile.jpg": {
 		"ft": 16384,
 		"iS": 50270,
@@ -656,6 +726,46 @@
 		"iS": 131303,
 		"oA": 0,
 		"oAP": "\/img\/photos\/japan-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/kansai-destination-thumb.jpg": {
+		"ft": 16384,
+		"iS": 88895,
+		"oA": 0,
+		"oAP": "\/img\/photos\/kansai-destination-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/kansai-splash.jpg": {
+		"ft": 16384,
+		"iS": 611263,
+		"oA": 0,
+		"oAP": "\/img\/photos\/kansai-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/kanto-destination-thumb.jpg": {
+		"ft": 16384,
+		"iS": 74799,
+		"oA": 0,
+		"oAP": "\/img\/photos\/kanto-destination-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/kanto-splash.jpg": {
+		"ft": 16384,
+		"iS": 554941,
+		"oA": 0,
+		"oAP": "\/img\/photos\/kanto-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -679,6 +789,36 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/kyushu-destination-thumb.jpg": {
+		"ft": 16384,
+		"iS": 56420,
+		"oA": 0,
+		"oAP": "\/img\/photos\/kyushu-destination-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/kyushu-splash.jpg": {
+		"ft": 16384,
+		"iS": 326712,
+		"oA": 0,
+		"oAP": "\/img\/photos\/kyushu-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/kyushu-thumb-destination.jpg": {
+		"ft": 16384,
+		"iS": 32887,
+		"oA": 0,
+		"oAP": "\/img\/photos\/kyushu-thumb-destination.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/photos\/kyushuu.jpg": {
@@ -721,11 +861,41 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/mountain.jpg": {
+	"\/img\/photos\/minami-alps-destination-thumb.jpg": {
 		"ft": 16384,
-		"iS": 56420,
+		"iS": 61208,
 		"oA": 0,
-		"oAP": "\/img\/photos\/mountain.jpg",
+		"oAP": "\/img\/photos\/minami-alps-destination-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/minami-alps-splash.jpg": {
+		"ft": 16384,
+		"iS": 446906,
+		"oA": 0,
+		"oAP": "\/img\/photos\/minami-alps-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/okinawa-destination-thumb.jpg": {
+		"ft": 16384,
+		"iS": 34275,
+		"oA": 0,
+		"oAP": "\/img\/photos\/okinawa-destination-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/okinawa-splash.jpg": {
+		"ft": 16384,
+		"iS": 255591,
+		"oA": 0,
+		"oAP": "\/img\/photos\/okinawa-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -811,21 +981,21 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/shikoku-2.JPG": {
-		"ft": 16384,
-		"iS": 45827,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/photos\/shikoku-3.JPG": {
 		"ft": 16384,
 		"iS": 7132584,
 		"oA": 0,
 		"oAP": "\/img\/photos\/shikoku-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/shikoku-destination-thumb.JPG": {
+		"ft": 16384,
+		"iS": 45827,
+		"oA": 0,
+		"oAP": "\/img\/photos\/shikoku-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1056,6 +1226,26 @@
 		"iS": 6460928,
 		"oA": 0,
 		"oAP": "\/img\/photos\/tohoku-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/tohoku-destination-thumb.jpg": {
+		"ft": 16384,
+		"iS": 83639,
+		"oA": 0,
+		"oAP": "\/img\/photos\/tohoku-destination-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/tohoku-splash.jpg": {
+		"ft": 16384,
+		"iS": 638368,
+		"oA": 0,
+		"oAP": "\/img\/photos\/tohoku-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

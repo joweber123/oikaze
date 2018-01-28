@@ -318,14 +318,36 @@ header {
   background-position: bottom;
   opacity: .9; }
 
-.shikoku {
-  background-image: url(../img/photos/shikoku-2.JPG); }
+.shikoku-thumb {
+  background-image: url(../img/photos/shikoku-destination-thumb.JPG); }
 
-.hokkaido {
-  background-image: url(../img/photos/hokkaido-destination-2.jpg); }
+.hokkaido-thumb {
+  background-image: url(../img/photos/hokkaido-destination-thumb.jpg); }
 
-.kyushu {
-  background-image: url(../img/photos/mountain.jpg); }
+.kyushu-thumb {
+  background-image: url(../img/photos/kyushu-destination-thumb.jpg); }
+
+.tohoku-thumb {
+  background-image: url(../img/photos/tohoku-destination-thumb.jpg);
+  background-position: center; }
+
+.minami-alps-thumb {
+  background-image: url(../img/photos/minami-alps-destination-thumb.jpg);
+  background-position: left; }
+
+.kanto-thumb {
+  background-image: url(../img/photos/kanto-destination-thumb.jpg);
+  background-position: right; }
+
+.japan-sea-thumb {
+  background-image: url(../img/photos/japan-sea-destination-thumb.jpg);
+  background-position: center; }
+
+.kansai-thumb {
+  background-image: url(../img/photos/kansai-destination-thumb.jpg); }
+
+.okinawa-thumb {
+  background-image: url(../img/photos/okinawa-destination-thumb.jpg); }
 
 h3:after {
   content: "";
@@ -739,24 +761,64 @@ footer {
       background-image: url(../img/photos/roof.jpg); } }
 
 .shikoku-splash {
-  background-image: url(../img/photos/shikoku-splash.jpg); }
-  .shikoku-splash h2 {
-    text-shadow: none;
-    color: white;
-    line-height: 1;
-    margin: 5px 0; }
-  .shikoku-splash span {
-    color: #CB704A; }
-  .shikoku-splash h2:nth-child(2) {
-    line-height: 1;
-    border-top: 2px white solid;
-    border-bottom: 2px white solid;
-    width: 50%;
-    margin: 0 auto; }
-    @media (min-width: 800px) {
-      .shikoku-splash h2:nth-child(2) {
-        font-size: 120px;
-        line-height: 1.1; } }
+  background-image: url(../img/photos/shikoku-splash.jpg);
+  background-position: center; }
+
+.tohoku-splash {
+  background-image: url(../img/photos/tohoku-splash.jpg);
+  background-position: center; }
+
+.minami-alps-splash {
+  background-image: url(../img/photos/minami-alps-splash.jpg);
+  background-position: center; }
+
+.kanto-splash {
+  background-image: url(../img/photos/kanto-splash.jpg);
+  background-position: center; }
+
+.japan-sea-splash {
+  background-image: url(../img/photos/japan-sea-splash.jpg);
+  background-position: center; }
+
+.kansai-splash {
+  background-image: url(../img/photos/kansai-splash.jpg);
+  background-position: center; }
+
+.okinawa-splash {
+  background-image: url(../img/photos/okinawa-splash.jpg);
+  background-position: center; }
+
+.kyushu-splash {
+  background-image: url(../img/photos/kyushu-splash.jpg);
+  background-position: center; }
+
+.hokkaido-splash {
+  background-image: url(../img/photos/hokkaido-splash.jpg);
+  background-position: center; }
+
+.kyushu-splash {
+  background-image: url(../img/photos/kyushu-splash.jpg);
+  background-position: center; }
+
+.splash-text h2 {
+  text-shadow: none;
+  color: white;
+  line-height: 1;
+  margin: 5px 0; }
+
+.splash-text span {
+  color: #CB704A; }
+
+.splash-text h2:nth-child(2) {
+  line-height: 1;
+  border-top: 2px white solid;
+  border-bottom: 2px white solid;
+  width: 50%;
+  margin: 0 auto; }
+  @media (min-width: 800px) {
+    .splash-text h2:nth-child(2) {
+      font-size: 120px;
+      line-height: 1.1; } }
 
 .story p {
   font-family: 'Merriweather', serif; }
@@ -890,11 +952,21 @@ footer {
       width: 33%;
       padding: 80px 0; } }
 
+.destination-page:hover {
+  transition: .2s ease-in-out;
+  box-shadow: 1px 1px 8px #999; }
+  .destination-page:hover h3:after {
+    width: 100px;
+    transition: .2s ease-in-out; }
+
 .padding-bottom {
   padding: 0; }
   @media (min-width: 800px) {
     .padding-bottom {
       padding-bottom: 50px; } }
+
+.padding-bottom-mobile {
+  padding-bottom: 50px; }
 
 .destinations-map {
   width: 50%;
@@ -907,51 +979,107 @@ footer {
   padding: 0 50px; }
 
 .flex-container {
-  margin: 30px 0; }
+  display: block; }
+  @media (min-width: 750px) {
+    .flex-container {
+      display: flex;
+      margin: 30px auto;
+      justify-content: center;
+      width: 98%;
+      max-width: 1200px; } }
+
+.text-container {
+  width: 98%;
+  margin: 0 auto; }
+  @media (min-width: 750px) {
+    .text-container {
+      width: 40%;
+      padding-top: 200px;
+      background-image: url(../img/design-elements/oi-kaze-vertical-background.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center; } }
 
 .map {
-  display: none; }
+  width: 300px;
+  height: 300px; }
   @media (min-width: 750px) {
     .map {
       display: inline;
       width: 600px;
       height: 600px; } }
 
+.hokkaido-letters {
+  fill: #0282C8; }
+
+.base-color {
+  fill: #203566; }
+
 #hokkaido:hover {
-  fill: pink; }
+  fill: #528D71; }
+  #hokkaido:hover .hokkaido-letters {
+    fill: #D00014; }
+
+.tohoku-letters {
+  fill: #0282C8; }
 
 #tohoku:hover {
-  fill: blue; }
+  fill: #99734C; }
+  #tohoku:hover .tohoku-letters {
+    fill: #D00014; }
 
-#chiba:hover {
-  fill: green; }
+.kyushu-letters {
+  fill: #0282C8; }
 
 #kyushu:hover {
-  fill: gray; }
+  fill: #6A526A; }
+  #kyushu:hover .kyushu-letters {
+    fill: #D00014; }
+
+.shikoku-letters {
+  fill: #0282C8; }
 
 #shikoku:hover {
-  fill: red; }
+  fill: #008080; }
+  #shikoku:hover .shikoku-letters {
+    fill: #D00014; }
+
+.okinawa-letters {
+  fill: #0282C8; }
 
 #okinawa:hover {
-  fill: red; }
+  fill: #3B4D61; }
+  #okinawa:hover .okinawa-letters {
+    fill: #D00014; }
+
+.minami-alps-letters {
+  fill: #0282C8; }
 
 #minami-alps:hover {
-  fill: brown; }
+  fill: #D2775A; }
+  #minami-alps:hover .minami-alps-letters {
+    fill: #D00014; }
 
-#izu:hover {
-  fill: orange; }
+.kansai-letters {
+  fill: #0282C8; }
 
 #kansai:hover {
-  fill: salmon; }
+  fill: #528D71; }
+  #kansai:hover .kansai-letters {
+    fill: #D00014; }
+
+.kanto-letters {
+  fill: #0282C8; }
 
 #kanto:hover {
-  fill: purple; }
+  fill: #028E86; }
+  #kanto:hover .kanto-letters {
+    fill: #D00014; }
+
+.japan-sea-letters {
+  fill: #0282C8; }
 
 #japan-sea:hover {
-  fill: teal; }
-
-#chubu:hover {
-  fill: gold; }
-
-#chugoku:hover {
-  fill: silver; }
+  fill: #0282C8; }
+  #japan-sea:hover .japan-sea-letters {
+    fill: #D00014; }
