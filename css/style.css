@@ -64,6 +64,9 @@ p {
 header {
   text-align: center; }
 
+footer {
+  margin-top: 20px; }
+
 .primary-nav {
   display: none; }
   @media (min-width: 800px) {
@@ -80,9 +83,11 @@ header {
   max-width: 960px;
   margin: 0 auto; }
 
-@media (min-width: 800px) {
-  .site-inner {
-    padding-top: 60px; } }
+.site-inner {
+  text-align: center; }
+  @media (min-width: 800px) {
+    .site-inner {
+      padding-top: 60px; } }
 
 .nav-logo {
   width: 200px;
@@ -208,7 +213,8 @@ header {
   transition: .5s ease-in-out;
   color: #1F3566;
   background-color: white;
-  border-radius: 10px; }
+  border-radius: 10px;
+  cursor: pointer; }
 
 .btn:hover {
   transition: .2s ease-in-out;
@@ -331,8 +337,8 @@ header {
   background-image: url(../img/photos/tohoku-destination-thumb.jpg);
   background-position: center; }
 
-.minami-alps-thumb {
-  background-image: url(../img/photos/minami-alps-destination-thumb.jpg);
+.southern-alps-thumb {
+  background-image: url(../img/photos/southern-alps-destination-thumb.jpg);
   background-position: left; }
 
 .kanto-thumb {
@@ -630,12 +636,12 @@ footer {
       background-image: url(../img/photos/team-group.jpg);
       padding: 200px 10px; } }
 
-.page-nobackground {
+.background-add-padding {
   background-size: cover;
   padding: 100px 10px;
   background-position: center; }
   @media (min-width: 800px) {
-    .page-nobackground {
+    .background-add-padding {
       padding: 200px 10px; } }
 
 .page-team {
@@ -761,43 +767,43 @@ footer {
       background-image: url(../img/photos/roof.jpg); } }
 
 .shikoku-splash {
-  background-image: url(../img/photos/shikoku-splash.jpg);
+  background-image: url(../img/photos/page-shikoku/shikoku-splash.jpg);
   background-position: center; }
 
 .tohoku-splash {
-  background-image: url(../img/photos/tohoku-splash.jpg);
+  background-image: url(../img/photos/page-tohoku/tohoku-splash.jpg);
   background-position: center; }
 
-.minami-alps-splash {
-  background-image: url(../img/photos/minami-alps-splash.jpg);
+.southern-alps-splash {
+  background-image: url(../img/photos/page-southern-alps/southern-alps-splash.jpg);
   background-position: center; }
 
 .kanto-splash {
-  background-image: url(../img/photos/kanto-splash.jpg);
+  background-image: url(../img/photos/page-kanto/kanto-splash.jpg);
   background-position: center; }
 
 .japan-sea-splash {
-  background-image: url(../img/photos/japan-sea-splash.jpg);
+  background-image: url(../img/photos/page/japan-sea/japan-sea-splash.jpg);
   background-position: center; }
 
 .kansai-splash {
-  background-image: url(../img/photos/kansai-splash.jpg);
+  background-image: url(../img/photos/page-kansai/kansai-splash.jpg);
   background-position: center; }
 
 .okinawa-splash {
-  background-image: url(../img/photos/okinawa-splash.jpg);
+  background-image: url(../img/photos/page-okinawa/okinawa-splash.jpg);
   background-position: center; }
 
 .kyushu-splash {
-  background-image: url(../img/photos/kyushu-splash.jpg);
+  background-image: url(../img/photos/page-kyushu/kyushu-splash.jpg);
   background-position: center; }
 
 .hokkaido-splash {
-  background-image: url(../img/photos/hokkaido-splash.jpg);
+  background-image: url(../img/photos/page-hokkaido/hokkaido-splash.jpg);
   background-position: center; }
 
 .kyushu-splash {
-  background-image: url(../img/photos/kyushu-splash.jpg);
+  background-image: url(../img/photos/page-kyushu/kyushu-splash.jpg);
   background-position: center; }
 
 .splash-text h2 {
@@ -809,14 +815,15 @@ footer {
 .splash-text span {
   color: #CB704A; }
 
-.splash-text h2:nth-child(2) {
+.splash-text h1 {
+  text-shadow: none;
   line-height: 1;
   border-top: 2px white solid;
   border-bottom: 2px white solid;
   width: 50%;
   margin: 0 auto; }
   @media (min-width: 800px) {
-    .splash-text h2:nth-child(2) {
+    .splash-text h1 {
       font-size: 120px;
       line-height: 1.1; } }
 
@@ -829,10 +836,18 @@ footer {
   max-width: 1200px;
   text-align: center; }
 
-.nut-shell-shikoku {
-  background-image: url(../img/design-elements/shikoku-map.svg);
+.background-contain {
   background-size: contain;
   background-repeat: no-repeat; }
+
+.nut-shell-shikoku {
+  background-image: url(../img/design-elements/page-shikoku/shikoku-map.svg); }
+
+.nut-shell-southern-alps {
+  background-image: url(../img/design-elements/page-southern-alps/southern-alps-map.svg); }
+
+.nut-shell-kanto {
+  background-image: url(../img/design-elements/page-kanto/kanto-map.svg); }
 
 .story-vertical-picture {
   height: 500px;
@@ -848,86 +863,48 @@ footer {
   .story-vertical-text {
     height: 800px; } }
 
-.page-background.shikoku {
-  background-image: url(../img/photos/shikoku-story/river-1.jpg); }
+.availability {
+  padding-top: 200px; }
+
+.background-add-padding.shikoku {
+  background-image: url(../img/photos/page-shikoku/river-1.jpg); }
   @media (min-width: 800px) {
-    .page-background.shikoku {
-      background-image: url(../img/photos/shikoku-story/river-1.jpg);
+    .background-add-padding.shikoku {
+      background-image: url(../img/photos/page-shikoku/river-1.jpg);
       background-size: auto; } }
-
-.shikoku-story-pictures {
-  background-image: url(../img/photos/trees.jpg); }
-
-.ben-bike-sakura {
-  background-image: url(../img/photos/shikoku-story/ben-bike-sakura.jpg); }
-
-.lake-scenery {
-  background-image: url(../img/photos/shikoku-story/lake-scenery.jpg); }
-
-.bridge {
-  background-image: url(../img/photos/shikoku-story/bridge.jpg); }
-
-.james-stretching {
-  background-image: url(../img/photos/shikoku-story/james-stretching.jpg); }
-
-.koi-nobori {
-  background-image: url(../img/photos/shikoku-story/koi-nobori.jpg); }
-
-.tori-waterfall {
-  background-image: url(../img/photos/shikoku-story/tori-waterfall.jpg); }
-
-.small-waterfall {
-  background-image: url(../img/photos/shikoku-story/small-waterfall.jpg); }
-
-.village-james-in-distance {
-  background-image: url(../img/photos/shikoku-story/village-james-in-distance.jpg); }
-
-.three-shot {
-  background-image: url(../img/photos/shikoku-story/three-shot.jpg); }
-
-.town-distance {
-  background-image: url(../img/photos/shikoku-story/town-distance.jpg); }
-
-.ben-bike-waterfall {
-  background-image: url(../img/photos/shikoku-story/ben-bike-waterfall.jpg); }
-
-.tunnel-entrance {
-  background-image: url(../img/photos/shikoku-story/tunnel-entrance.jpg); }
-
-@media (min-width: 800px) {
-  .four-picture-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 98%;
-    max-width: 1200px;
-    margin: 0 auto; } }
-
-.four-picture-wrapper .two-picture-wrapper {
-  width: 94%;
-  margin: 0 auto;
-  clear: both;
-  content: "";
-  display: table; }
   @media (min-width: 800px) {
-    .four-picture-wrapper .two-picture-wrapper {
-      width: 50%; } }
-  .four-picture-wrapper .two-picture-wrapper .picture-text-wrapper {
-    width: 100%;
-    margin: 0 auto; }
-    @media (min-width: 400px) {
-      .four-picture-wrapper .two-picture-wrapper .picture-text-wrapper {
-        width: 50%;
-        float: left; } }
-    .four-picture-wrapper .two-picture-wrapper .picture-text-wrapper .four-picture {
+    .background-add-padding.shikoku {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 98%;
+      max-width: 1200px;
+      margin: 0 auto; } }
+  .background-add-padding.shikoku .two-picture-wrapper {
+    width: 94%;
+    margin: 0 auto;
+    clear: both;
+    content: "";
+    display: table; }
+    @media (min-width: 800px) {
+      .background-add-padding.shikoku .two-picture-wrapper {
+        width: 50%; } }
+    .background-add-padding.shikoku .two-picture-wrapper .picture-text-wrapper {
       width: 100%;
-      height: 500px;
-      background-size: cover;
       margin: 0 auto; }
       @media (min-width: 400px) {
-        .four-picture-wrapper .two-picture-wrapper .picture-text-wrapper .four-picture {
-          height: 450px;
-          width: 98%; } }
+        .background-add-padding.shikoku .two-picture-wrapper .picture-text-wrapper {
+          width: 50%;
+          float: left; } }
+      .background-add-padding.shikoku .two-picture-wrapper .picture-text-wrapper .four-picture {
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        margin: 0 auto; }
+        @media (min-width: 400px) {
+          .background-add-padding.shikoku .two-picture-wrapper .picture-text-wrapper .four-picture {
+            height: 450px;
+            width: 98%; } }
 
 .destinations-row-wrapper {
   margin: 0 auto;
@@ -1052,12 +1029,12 @@ footer {
   #okinawa:hover .okinawa-letters {
     fill: #D00014; }
 
-.minami-alps-letters {
+.southern-alps-letters {
   fill: #0282C8; }
 
-#minami-alps:hover {
+#southern-alps:hover {
   fill: #D2775A; }
-  #minami-alps:hover .minami-alps-letters {
+  #southern-alps:hover .southern-alps-letters {
     fill: #D00014; }
 
 .kansai-letters {
@@ -1083,3 +1060,53 @@ footer {
   fill: #0282C8; }
   #japan-sea:hover .japan-sea-letters {
     fill: #D00014; }
+
+.image-responsive {
+  height: auto;
+  width: 100%; }
+
+.serif-font {
+  font-family: 'Merriweather', serif; }
+
+.sans-font {
+  font-family: 'Oswald', sans-serif; }
+
+.container {
+  margin: 20px auto;
+  width: 98%;
+  max-width: 1200px;
+  padding: 0;
+  text-align: center; }
+  .container .row-flex {
+    display: block; }
+    @media (min-width: 750px) {
+      .container .row-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
+    .container .row-flex .three {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0 .5rem; }
+      @media (min-width: 750px) {
+        .container .row-flex .three {
+          width: 33%;
+          padding: 0 .5rem; } }
+    .container .row-flex .six {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0 .5rem; }
+      @media (min-width: 750px) {
+        .container .row-flex .six {
+          width: 50%;
+          padding: 0 .5rem; } }
+    .container .row-flex .text-padding {
+      padding: 1rem 0; }
+      @media (min-width: 750px) {
+        .container .row-flex .text-padding {
+          padding: 0; } }
+  .container .top-align {
+    align-items: flex-start; }
+
+.flex-reverse {
+  flex-direction: row-reverse; }

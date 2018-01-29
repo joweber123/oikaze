@@ -21,24 +21,6 @@
 		"oAP": "\/booking.html",
 		"oF": 0
 		},
-	"\/chiba.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/chiba.html",
-		"oF": 0
-		},
-	"\/chubu.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/chubu.html",
-		"oF": 0
-		},
-	"\/chugoku.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/chugoku.html",
-		"oF": 0
-		},
 	"\/contact.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -95,36 +77,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/amakusa-divider.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/calendar-shikoku-mobile.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/calendar-shikoku-mobile.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/calendar-shikoku-tablet.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/calendar-shikoku-tablet.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/calendar-shikoku.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/calendar-shikoku.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -370,11 +322,351 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/design-elements\/shikoku-map.svg": {
+	"\/img\/design-elements\/page-hokkaido\/calendar-hokkaido-mobile.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/img\/design-elements\/shikoku-map.svg",
+		"oAP": "\/img\/design-elements\/page-hokkaido\/calendar-hokkaido-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-hokkaido\/calendar-hokkaido-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-hokkaido\/calendar-hokkaido-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-hokkaido\/calendar-hokkaido.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-hokkaido\/calendar-hokkaido.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-hokkaido\/hokkaido-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-hokkaido\/hokkaido-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-japan-sea\/calendar-japan-sea-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-japan-sea\/calendar-japan-sea-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-japan-sea\/calendar-japan-sea-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-japan-sea\/calendar-japan-sea-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-japan-sea\/calendar-japan-sea.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-japan-sea\/calendar-japan-sea.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-japan-sea\/japan-sea-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-japan-sea\/japan-sea-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kansai\/calendar-kansai-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kansai\/calendar-kansai-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kansai\/calendar-kansai-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kansai\/calendar-kansai-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kansai\/calendar-kansai.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kansai\/calendar-kansai.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kansai\/kansai-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kansai\/kansai-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kanto\/calendar-kanto-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kanto\/calendar-kanto-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kanto\/calendar-kanto-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kanto\/calendar-kanto-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kanto\/calendar-kanto.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kanto\/calendar-kanto.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kanto\/kanto-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kanto\/kanto-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kyushu\/calendar-kyushu-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kyushu\/calendar-kyushu-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kyushu\/calendar-kyushu-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kyushu\/calendar-kyushu-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kyushu\/calendar-kyushu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kyushu\/calendar-kyushu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-kyushu\/kyushu-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-kyushu\/kyushu-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-okinawa\/calendar-okinawa-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-okinawa\/calendar-okinawa-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-okinawa\/calendar-okinawa-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-okinawa\/calendar-okinawa-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-okinawa\/calendar-okinawa.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-okinawa\/calendar-okinawa.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-shikoku\/calendar-shikoku-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-shikoku\/calendar-shikoku-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-shikoku\/calendar-shikoku-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-shikoku\/calendar-shikoku-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-shikoku\/calendar-shikoku.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-shikoku\/calendar-shikoku.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-shikoku\/shikoku-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-shikoku\/shikoku-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-southern-alps\/calendar-southern-alps-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-southern-alps\/calendar-southern-alps-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-southern-alps\/calendar-southern-alps-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-southern-alps\/calendar-southern-alps-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-southern-alps\/calendar-southern-alps.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-southern-alps\/calendar-southern-alps.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-southern-alps\/southern-alps-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-southern-alps\/southern-alps-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-tohoku\/calendar-tohoku-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-tohoku\/calendar-tohoku-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-tohoku\/calendar-tohoku-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-tohoku\/calendar-tohoku-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-tohoku\/calendar-tohoku.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-tohoku\/calendar-tohoku.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-tohoku\/tohoku-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-tohoku\/tohoku-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -571,16 +863,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/hokkaido-splash.jpg": {
-		"ft": 16384,
-		"iS": 654518,
-		"oA": 0,
-		"oAP": "\/img\/photos\/hokkaido-splash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/photos\/hokkaido.JPG": {
 		"ft": 16384,
 		"iS": 7852638,
@@ -701,16 +983,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/japan-sea-splash.jpg": {
-		"ft": 16384,
-		"iS": 375464,
-		"oA": 0,
-		"oAP": "\/img\/photos\/japan-sea-splash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/photos\/japan-splash-mobile.jpg": {
 		"ft": 16384,
 		"iS": 50270,
@@ -741,31 +1013,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/kansai-splash.jpg": {
-		"ft": 16384,
-		"iS": 611263,
-		"oA": 0,
-		"oAP": "\/img\/photos\/kansai-splash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/photos\/kanto-destination-thumb.jpg": {
 		"ft": 16384,
 		"iS": 74799,
 		"oA": 0,
 		"oAP": "\/img\/photos\/kanto-destination-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/kanto-splash.jpg": {
-		"ft": 16384,
-		"iS": 554941,
-		"oA": 0,
-		"oAP": "\/img\/photos\/kanto-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -796,16 +1048,6 @@
 		"iS": 56420,
 		"oA": 0,
 		"oAP": "\/img\/photos\/kyushu-destination-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/photos\/kyushu-splash.jpg": {
-		"ft": 16384,
-		"iS": 326712,
-		"oA": 0,
-		"oAP": "\/img\/photos\/kyushu-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -861,26 +1103,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/minami-alps-destination-thumb.jpg": {
-		"ft": 16384,
-		"iS": 61208,
-		"oA": 0,
-		"oAP": "\/img\/photos\/minami-alps-destination-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/minami-alps-splash.jpg": {
-		"ft": 16384,
-		"iS": 446906,
-		"oA": 0,
-		"oAP": "\/img\/photos\/minami-alps-splash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/photos\/okinawa-destination-thumb.jpg": {
 		"ft": 16384,
 		"iS": 34275,
@@ -891,21 +1113,261 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/okinawa-splash.jpg": {
-		"ft": 16384,
-		"iS": 255591,
-		"oA": 0,
-		"oAP": "\/img\/photos\/okinawa-splash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/photos\/old-bike.jpg": {
 		"ft": 16384,
 		"iS": 43833,
 		"oA": 0,
 		"oAP": "\/img\/photos\/old-bike.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-splash.jpg": {
+		"ft": 16384,
+		"iS": 654518,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-japan-sea\/japan-sea-splash.jpg": {
+		"ft": 16384,
+		"iS": 375464,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-japan-sea\/japan-sea-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-kansai\/kansai-splash.jpg": {
+		"ft": 16384,
+		"iS": 611263,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kansai\/kansai-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-kanto\/kanto-splash.jpg": {
+		"ft": 16384,
+		"iS": 554941,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kanto\/kanto-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-kyushu\/kyushu-splash.jpg": {
+		"ft": 16384,
+		"iS": 326712,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kyushu\/kyushu-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/page-okinawa\/okinawa-splash.jpg": {
+		"ft": 16384,
+		"iS": 255591,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-okinawa\/okinawa-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/ben-bike-greenwall.jpg": {
+		"ft": 16384,
+		"iS": 403416,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/ben-bike-greenwall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/ben-bike-sakura.jpg": {
+		"ft": 16384,
+		"iS": 352824,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/ben-bike-sakura.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/ben-bike-waterfall.jpg": {
+		"ft": 16384,
+		"iS": 451075,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/ben-bike-waterfall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/bridge.jpg": {
+		"ft": 16384,
+		"iS": 186544,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/bridge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/james-stretching.jpg": {
+		"ft": 16384,
+		"iS": 277874,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/james-stretching.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/japan_map.jpg": {
+		"ft": 16384,
+		"iS": 67618,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/japan_map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/koi-nobori.jpg": {
+		"ft": 16384,
+		"iS": 340005,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/koi-nobori.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/lake-scenery.jpg": {
+		"ft": 16384,
+		"iS": 195088,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/lake-scenery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/river-1.jpg": {
+		"ft": 16384,
+		"iS": 278438,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/river-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/shikoku-splash.jpg": {
+		"ft": 16384,
+		"iS": 175205,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/shikoku-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/small-waterfall.jpg": {
+		"ft": 16384,
+		"iS": 370943,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/small-waterfall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/three-shot.jpg": {
+		"ft": 16384,
+		"iS": 190421,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/three-shot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/tori-waterfall.jpg": {
+		"ft": 16384,
+		"iS": 516867,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/tori-waterfall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/town-distance.jpg": {
+		"ft": 16384,
+		"iS": 157187,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/town-distance.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/tunnel-entrance.jpg": {
+		"ft": 16384,
+		"iS": 346320,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/tunnel-entrance.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/two-shot-standing-with-bikes.jpg": {
+		"ft": 16384,
+		"iS": 214452,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/two-shot-standing-with-bikes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-shikoku\/village-james-in-distance.jpg": {
+		"ft": 16384,
+		"iS": 206346,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-shikoku\/village-james-in-distance.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-southern-alps\/southern-alps-splash.jpg": {
+		"ft": 16384,
+		"iS": 446906,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-southern-alps\/southern-alps-splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-tohoku\/tohoku-splash.jpg": {
+		"ft": 16384,
+		"iS": 638368,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-tohoku\/tohoku-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1001,171 +1463,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/shikoku-splash.jpg": {
+	"\/img\/photos\/southern-alps-destination-thumb.jpg": {
 		"ft": 16384,
-		"iS": 175205,
+		"iS": 61208,
 		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-splash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/ben-bike-greenwall.jpg": {
-		"ft": 16384,
-		"iS": 403416,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/ben-bike-greenwall.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/ben-bike-sakura.jpg": {
-		"ft": 16384,
-		"iS": 352824,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/ben-bike-sakura.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/ben-bike-waterfall.jpg": {
-		"ft": 16384,
-		"iS": 451075,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/ben-bike-waterfall.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/bridge.jpg": {
-		"ft": 16384,
-		"iS": 186544,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/bridge.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/james-stretching.jpg": {
-		"ft": 16384,
-		"iS": 277874,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/james-stretching.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/japan_map.jpg": {
-		"ft": 16384,
-		"iS": 67618,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/japan_map.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/koi-nobori.jpg": {
-		"ft": 16384,
-		"iS": 340005,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/koi-nobori.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/lake-scenery.jpg": {
-		"ft": 16384,
-		"iS": 195088,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/lake-scenery.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/river-1.jpg": {
-		"ft": 16384,
-		"iS": 278438,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/river-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/small-waterfall.jpg": {
-		"ft": 16384,
-		"iS": 370943,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/small-waterfall.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/three-shot.jpg": {
-		"ft": 16384,
-		"iS": 190421,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/three-shot.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/tori-waterfall.jpg": {
-		"ft": 16384,
-		"iS": 516867,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/tori-waterfall.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/town-distance.jpg": {
-		"ft": 16384,
-		"iS": 157187,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/town-distance.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/tunnel-entrance.jpg": {
-		"ft": 16384,
-		"iS": 346320,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/tunnel-entrance.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/two-shot-standing-with-bikes.jpg": {
-		"ft": 16384,
-		"iS": 214452,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/two-shot-standing-with-bikes.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/shikoku-story\/village-james-in-distance.jpg": {
-		"ft": 16384,
-		"iS": 206346,
-		"oA": 0,
-		"oAP": "\/img\/photos\/shikoku-story\/village-james-in-distance.jpg",
+		"oAP": "\/img\/photos\/southern-alps-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1236,16 +1538,6 @@
 		"iS": 83639,
 		"oA": 0,
 		"oAP": "\/img\/photos\/tohoku-destination-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/tohoku-splash.jpg": {
-		"ft": 16384,
-		"iS": 638368,
-		"oA": 0,
-		"oAP": "\/img\/photos\/tohoku-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1366,12 +1658,6 @@
 		"oAP": "\/legal.html",
 		"oF": 0
 		},
-	"\/minami-alps.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/minami-alps.html",
-		"oF": 0
-		},
 	"\/okinawa.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1384,10 +1670,16 @@
 		"oAP": "\/shikoku.html",
 		"oF": 0
 		},
-	"\/style.html": {
+	"\/southern-alps.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/style.html",
+		"oAP": "\/southern-alps.html",
+		"oF": 0
+		},
+	"\/testament.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/testament.html",
 		"oF": 0
 		},
 	"\/tohoku.html": {

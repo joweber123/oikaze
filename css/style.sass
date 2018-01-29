@@ -63,6 +63,8 @@ p
     max-width: 700px
 header
   text-align: center
+footer
+  margin-top: 20px
 
 .primary-nav
   display: none
@@ -81,6 +83,7 @@ header
 
 
 .site-inner
+  text-align: center
   @media(min-width: 800px)
     padding-top: 60px
 
@@ -202,6 +205,7 @@ header
   color: $base-color
   background-color: white
   border-radius: 10px
+  cursor: pointer
 
 .btn:hover
   transition: .2s ease-in-out
@@ -322,8 +326,8 @@ header
 .tohoku-thumb
   background-image: url(../img/photos/tohoku-destination-thumb.jpg)
   background-position: center
-.minami-alps-thumb
-  background-image: url(../img/photos/minami-alps-destination-thumb.jpg)
+.southern-alps-thumb
+  background-image: url(../img/photos/southern-alps-destination-thumb.jpg)
   background-position: left
 .kanto-thumb
   background-image: url(../img/photos/kanto-destination-thumb.jpg)
@@ -610,7 +614,7 @@ footer
   @media(min-width:800px)
     background-image: url(../img/photos/team-group.jpg)
     padding: 200px 10px
-.page-nobackground
+.background-add-padding
   background-size: cover
   padding: 100px 10px
   background-position: center
@@ -727,34 +731,34 @@ footer
 //destination-general
 
 .shikoku-splash
-  background-image: url(../img/photos/shikoku-splash.jpg)
+  background-image: url(../img/photos/page-shikoku/shikoku-splash.jpg)
   background-position: center
 .tohoku-splash
-  background-image: url(../img/photos/tohoku-splash.jpg)
+  background-image: url(../img/photos/page-tohoku/tohoku-splash.jpg)
   background-position: center
-.minami-alps-splash
-  background-image: url(../img/photos/minami-alps-splash.jpg)
+.southern-alps-splash
+  background-image: url(../img/photos/page-southern-alps/southern-alps-splash.jpg)
   background-position: center
 .kanto-splash
-  background-image: url(../img/photos/kanto-splash.jpg)
+  background-image: url(../img/photos/page-kanto/kanto-splash.jpg)
   background-position: center
 .japan-sea-splash
-  background-image: url(../img/photos/japan-sea-splash.jpg)
+  background-image: url(../img/photos/page/japan-sea/japan-sea-splash.jpg)
   background-position: center
 .kansai-splash
-  background-image: url(../img/photos/kansai-splash.jpg)
+  background-image: url(../img/photos/page-kansai/kansai-splash.jpg)
   background-position: center
 .okinawa-splash
-  background-image: url(../img/photos/okinawa-splash.jpg)
+  background-image: url(../img/photos/page-okinawa/okinawa-splash.jpg)
   background-position: center
 .kyushu-splash
-  background-image: url(../img/photos/kyushu-splash.jpg)
+  background-image: url(../img/photos/page-kyushu/kyushu-splash.jpg)
   background-position: center
 .hokkaido-splash
-  background-image: url(../img/photos/hokkaido-splash.jpg)
+  background-image: url(../img/photos/page-hokkaido/hokkaido-splash.jpg)
   background-position: center
 .kyushu-splash
-  background-image: url(../img/photos/kyushu-splash.jpg)
+  background-image: url(../img/photos/page-kyushu/kyushu-splash.jpg)
   background-position: center
 .splash-text
   h2
@@ -769,15 +773,13 @@ footer
 
 
 
-  h2:nth-child(2)
+  h1
+    text-shadow: none
     line-height: 1
     border-top: 2px white solid
     border-bottom: 2px white solid
     width: 50%
     margin: 0 auto
-
-
-
 
     @media(min-width:800px)
       font-size: 120px
@@ -791,11 +793,16 @@ footer
   max-width: 1200px
   text-align: center
   .section-space
-
-.nut-shell-shikoku
-  background-image: url(../img/design-elements/shikoku-map.svg)
+.background-contain
   background-size: contain
   background-repeat: no-repeat
+.nut-shell-shikoku
+  background-image: url(../img/design-elements/page-shikoku/shikoku-map.svg)
+.nut-shell-southern-alps
+  background-image: url(../img/design-elements/page-southern-alps/southern-alps-map.svg)
+.nut-shell-kanto
+  background-image: url(../img/design-elements/page-kanto/kanto-map.svg)
+
 .story-vertical-picture
   height: 500px
   background-position: bottom right
@@ -808,41 +815,17 @@ footer
   @media(min-width:800px)
     height: 800px
     
+.availability
+  padding-top: 200px
 
-
-.page-background.shikoku
-  background-image: url(../img/photos/shikoku-story/river-1.jpg)
+.background-add-padding.shikoku
+  background-image: url(../img/photos/page-shikoku/river-1.jpg)
 
   @media(min-width:800px)
-    background-image: url(../img/photos/shikoku-story/river-1.jpg)
+    background-image: url(../img/photos/page-shikoku/river-1.jpg)
     background-size: auto
-.shikoku-story-pictures
-  background-image: url(../img/photos/trees.jpg)
-.ben-bike-sakura
-  background-image: url(../img/photos/shikoku-story/ben-bike-sakura.jpg)
-.lake-scenery
-  background-image: url(../img/photos/shikoku-story/lake-scenery.jpg)
-.bridge
-  background-image: url(../img/photos/shikoku-story/bridge.jpg)
-.james-stretching
-  background-image: url(../img/photos/shikoku-story/james-stretching.jpg)
-.koi-nobori
-  background-image: url(../img/photos/shikoku-story/koi-nobori.jpg)
-.tori-waterfall
-  background-image: url(../img/photos/shikoku-story/tori-waterfall.jpg)
-.small-waterfall
-  background-image: url(../img/photos/shikoku-story/small-waterfall.jpg)
-.village-james-in-distance
-  background-image: url(../img/photos/shikoku-story/village-james-in-distance.jpg)
-.three-shot
-  background-image: url(../img/photos/shikoku-story/three-shot.jpg)
-.town-distance
-  background-image: url(../img/photos/shikoku-story/town-distance.jpg)
-.ben-bike-waterfall
-  background-image: url(../img/photos/shikoku-story/ben-bike-waterfall.jpg)
-.tunnel-entrance
-  background-image: url(../img/photos/shikoku-story/tunnel-entrance.jpg)
-.four-picture-wrapper
+
+
   
   @media(min-width:800px)
     display: flex
@@ -985,11 +968,11 @@ footer
   fill: #3B4D61
   .okinawa-letters
     fill: $hover-letters
-.minami-alps-letters
+.southern-alps-letters
   fill: $base-map-letter
-#minami-alps:hover
+#southern-alps:hover
   fill: #D2775A
-  .minami-alps-letters
+  .southern-alps-letters
     fill: $hover-letters
 
 .kansai-letters
@@ -1010,5 +993,46 @@ footer
   fill: #0282C8
   .japan-sea-letters
     fill: $hover-letters
-
+.image-responsive
+  height: auto
+  width: 100%
+.serif-font
+  font-family: 'Merriweather', serif
+.sans-font
+  font-family: 'Oswald', sans-serif
+.container
+  margin: 20px auto
+  width: 98%
+  max-width: 1200px
+  padding: 0
+  text-align: center
+  .row-flex
+    display: block
+    @media(min-width:750px)
+      display: flex
+      justify-content: center
+      align-items: center
+    .three
+      box-sizing: border-box
+      width: 100%
+      padding: 0 .5rem
+      @media(min-width:750px)
+        width: 33%
+        padding: 0 .5rem
+    .six
+      box-sizing: border-box
+      width: 100%
+      padding: 0 .5rem
+      @media(min-width:750px)
+        width: 50%
+        padding: 0 .5rem
+        
+    .text-padding 
+      padding: 1rem 0
+      @media(min-width:750px)
+        padding: 0
+  .top-align
+    align-items: flex-start
+.flex-reverse
+  flex-direction: row-reverse
 
