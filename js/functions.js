@@ -2,12 +2,12 @@ $(document).ready(function(){
 
 $(".hamburger").click(function(){
   $(".slide-out-nav").toggleClass("nav-active");
-  $("body").toggleClass("darken");
+  $(".site-inner").toggleClass("darken");
 });
 
 $(".close-button").click(function(){
   $(".slide-out-nav").removeClass("nav-active");
-  $("body").toggleClass("darken");
+  $(".site-inner").toggleClass("darken");
 });
 
 
@@ -59,23 +59,20 @@ console.log(sliderEndForward);
 console.log(sliderStartForward);
 console.log(sliderStartBackward);
 
-// We're repositionning our slider to our first true image 
+// We're repositionning our slider to our first true image
 // as currently the first image we're seing is a clone
 container.scrollLeft = sliderStartForward;
 
 container.addEventListener('scroll', scrolling);
 
-function scrolling() {  
+function scrolling() {
   console.log(container.scrollLeft);
   // We're sliding backwards and reached the end
   if (container.scrollLeft < 1) {
     container.scrollLeft = sliderStartBackward;
-  } 
-  
+  }
+
   if(container.scrollLeft > sliderEndForward){
     container.scrollLeft = sliderStartForward;
   }
 }
-
-
-

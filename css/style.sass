@@ -1,4 +1,26 @@
+/* Table of Contents
+	- Box Sizing
+	- Float Clearing
+  - Defaults
+	- Typographical Elements
+	- Headings
+  - Site Navigation
+	- Accessible Menu
+	- Site Header Navigation
+	- After Header Navigation
+	- Footer Navigation
+  - Content Area
 
+  - Media Queries
+
+  */
+
+
+/* Defaults
+  ---------------------------------------------------------------------------------------------------- */
+
+/* Variables
+  --------------------------------------------- */
 $base-color: #1F3566
 $secondary-color: #CB704A
 $text-shadow-darkletters: 2px 2px 5px #000000
@@ -7,28 +29,20 @@ $hover-letters: #D00014
 $base-map-letter: #0282C8
 $transparent: rgba(255,255,255, 0)
 
+/* Defaults
+  ---------------------------------------------------------------------------------------------------- */
 html
   font-family: 'Oswald', sans-serif
   box-sizing: border-box
-
+  font-weight: 400
 a
   text-decoration: none
   font-weight: 400
-h1
-  text-align: center
-  color: white
-  font-size: 45px
-  font-weight: 600
-  position: relative
-  text-shadow: $text-shadow-lightletters
-  @media(min-width: 400px)
-    font-size: 55px
-    margin: 0
 
-  @media(min-width: 650px)
-    font-size: 90px
-  @media(min-width:1000px)
-    font-size: 120px
+
+h1
+  margin: 0
+
 h2
   text-align: center
   color: $base-color
@@ -61,17 +75,122 @@ p
     margin: 5px auto 15px auto
     width: 80%
     max-width: 700px
+
+.site-inner
+  text-align: center
+  @media(min-width: 800px)
+    padding-top: 40px
+
+.btn
+  padding: 10px 30px
+  border: 2px solid $base-color
+  display: inline-block
+  margin: 0 auto 5px auto
+  text-align: center
+  transition: .5s ease-in-out
+  color: $base-color
+  background-color: white
+  border-radius: 10px
+  cursor: pointer
+
+.btn:hover
+  transition: .2s ease-in-out
+  box-shadow: 1px 1px 8px #999
+
+.white
+  color: white
+
+.btn-white
+  color: white
+  border: 2px solid white
+  background-color: rgba(255,255,255, 0)
+
+.divider
+  width: 50%
+  height: 50px
+  display: block
+  margin: 0 auto
+  padding: 10px 0
+  max-width: 700px
+
+.image-responsive
+  height: auto
+  width: 100%
+
+.serif-font
+  font-family: 'Merriweather', serif
+
+.sans-font
+  font-family: 'Oswald', sans-serif
+
+.container
+  margin: 20px auto
+  width: 98%
+  max-width: 1200px
+  padding: 0
+  text-align: center
+  box-sizing: border-box
+  .row-flex
+    display: block
+    @media(min-width:750px)
+      display: flex
+      justify-content: center
+      align-items: center
+    .three
+      box-sizing: border-box
+      width: 100%
+      padding: 0 .5rem
+      @media(min-width:750px)
+        width: 33%
+        padding: 0 .5rem
+    .six
+      box-sizing: border-box
+      width: 100%
+      padding: 0 .5rem
+      @media(min-width:750px)
+        width: 50%
+        padding: 0 .5rem
+    .text-padding
+      padding: 1rem 0
+      @media(min-width:750px)
+        padding: 0
+  .top-align
+    align-items: flex-start
+.flex-reverse
+  flex-direction: row-reverse
+
+.flex-container
+  display: block
+  @media(min-width:750px)
+    display: flex
+    margin: 30px auto
+    justify-content: center
+    width: 98%
+    max-width: 1200px
+
+.text-container
+  width: 98%
+  margin: 0 auto
+  @media(min-width:750px)
+    width: 40%
+    padding-top: 200px
+    background-image: url(../img/design-elements/oi-kaze-vertical-background.svg)
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
+
+
+
+/* Nav
+  ---------------------------------------------------------------------------------------------------- */
 header
   text-align: center
-footer
-  margin-top: 20px
-
 .primary-nav
   display: none
   @media(min-width: 800px)
     display: block
     width: 100%
-    height: 60px
+    height: 40px
     position: fixed
     background-color: white
     box-shadow: 0 0 6px #444
@@ -80,16 +199,12 @@ footer
 .primary-nav-wrapper
   max-width: 960px
   margin: 0 auto
-
-
-.site-inner
-  text-align: center
-  @media(min-width: 800px)
-    padding-top: 60px
+  margin-top: 7px
 
 
 .nav-logo
-  width: 200px
+  height: 25px
+  padding: 0 30px
   vertical-align: middle
   display: inline-block
 
@@ -97,16 +212,17 @@ footer
 .nav-element
   display: block
   color: $base-color
-
-
   @media(min-width: 800px)
     display: inline-block
     padding: 0 10px
+
 .nav-element:hover
   color: $secondary-color
   transition: .2s
+
 .nav-element-wide
   display: inline
+
 .nav-element-narrow
   font-size: 25px
 
@@ -116,6 +232,9 @@ footer
   display: block
   @media(min-width: 800px)
     display: none
+
+/* nav-responsive
+  ---------------------------------------------------------------------------------------------------- */
 .hamburger
   position: fixed
   top: 10px
@@ -159,8 +278,7 @@ footer
   100% { width: 45vw}
 
 .darken
-  filter: grayscale(60%)
-  background-color: #D3D3D3
+  opacity: .8
 
 
 .close-button
@@ -171,56 +289,42 @@ footer
   z-index: 1
   color: $base-color
 
+/* footer
+  ---------------------------------------------------------------------------------------------------- */
+footer
+  background-color: $base-color
+  padding: 10px 0
+  text-align: center
+  margin-top: 20px
+.secondary-nav
+  text-align: center
+  max-width: 800px
+  margin: 0 auto
+  .nav-element
+    color: white
+    @media(min-width: 800px)
+      display: inline-block
 
+.secondary-nav-logo
+  display: block
+  margin: 0 auto
+  width: 175px
+.secondary-nav-wrapper
+  text-align: center
 
-
-.title-accent
-  display: none
-  @media(min-width: 1000px)
-    display: block
-    font-size: 200px
-    color: rgba(119, 119, 119, 0.4)
-    position: relative
-    top: -240px
-    z-index: 1
+.legal-link
+  color: white
+  display: block
+  font-size: 12px
+/* homepage-styles
+  ---------------------------------------------------------------------------------------------------- */
 
 .section
   text-align: center
-
-.divider
-  width: 50%
-  height: 50px
-  display: block
-  margin: 0 auto
-  padding: 10px 0
-  max-width: 700px
-
-.btn
-  padding: 10px 30px
-  border: 2px solid $base-color
-  display: inline-block
-  margin: 0 auto 5px auto
-  text-align: center
-  transition: .5s ease-in-out
-  color: $base-color
-  background-color: white
-  border-radius: 10px
-  cursor: pointer
-
-.btn:hover
-  transition: .2s ease-in-out
-  box-shadow: 1px 1px 8px #999
-
-
-
-
-.white
-  color: white
-
-.btn-white
-  color: white
-  border: 2px solid white
-  background-color: rgba(255,255,255, 0)
+/* general-homepage-styles
+  ---------------------------------------------------------------------------------------------------- */
+/* homepage-leader-styles
+  ---------------------------------------------------------------------------------------------------- */
 
 .leader
   padding-top: 10px
@@ -231,20 +335,25 @@ footer
   background-position: top
   @media(min-width:800px)
     background-image: url(../img/photos/fuji-rock.jpg)
-    height: calc(100vh - 60px)
+    height: calc(100vh - 40px)
+.leader-text
+  width: 80%
 
 
-.about-home
+
+/* homepage-about-styles
+  ---------------------------------------------------------------------------------------------------- */
+.hp-about
   background-image: url(../img/photos/team-mobile.jpg)
   background-size: cover
   padding: 100px 10px
   @media(min-width:800px)
     background-image: url(../img/photos/team.jpg)
     padding: 200px 10px
+/* homepage-slogan-styles
+  ---------------------------------------------------------------------------------------------------- */
 
-
-
-.slogan
+.hp-slogan
   background-image: url(../img/photos/fuji.JPG)
   background-size: cover
   padding: 100px 10px
@@ -252,7 +361,10 @@ footer
     background-image: url(../img/photos/fuji.JPG)
     padding: 200px 10px
 
-.destinations
+/* homepage-destinations-styles
+  ---------------------------------------------------------------------------------------------------- */
+
+.hp-destinations
   background-position: left
   background-repeat: no-repeat
   padding: 0 10px 50px 10px
@@ -269,16 +381,15 @@ footer
   @media(min-width: 800px)
     background-image: url(../img/design-elements/oi-kanji-01-01.svg)
 
-.destinations-text-wrap
+.hp-destinations-text-wrap
   padding-bottom: 50px
   @media(min-width: 800px)
-
     width: 50%
     max-width: 600px
     float: left
     padding: 160px 0
 
-.destinations-wrapper
+.hp-destinations-wrapper
   float: none
   width: 100%
   text-align: center
@@ -287,7 +398,7 @@ footer
     width: 50%
     float: right
 
-.destination-wrapper
+.hp-destination-wrapper
   width: 95%
   max-width: 600px
   margin: 5px auto
@@ -302,8 +413,7 @@ footer
     margin: 5px 0
     box-shadow: none
 
-.destination-wrapper:hover
-
+.hp-destination-wrapper:hover
   transition: .2s ease-in-out
   box-shadow: 1px 1px 8px #999
   h3:after
@@ -314,6 +424,8 @@ footer
   background-size: cover
   background-position: bottom
   opacity: .9
+/* destinations thumb repeated on hp-destination, page-destination, destination
+  ---------------------------------------------------------------------------------------------------- */
 
 .shikoku-thumb
   background-image: url(../img/photos/shikoku-destination-thumb.JPG)
@@ -347,11 +459,11 @@ h3:after
   width: 60px
   background-color: #fff
   transition: .2s ease-in-out
-//tour types
-.ride-style
+
+/* homepage-testament-styles
+  ---------------------------------------------------------------------------------------------------- */
+.hp-testament
   padding: 100px 10px
-  //background-image: url(../img/design-elements/japanese-bg-1.jpg)
-  //background-image: url(../img/design-elements/flower-bg-1.svg)
   background-image: url(../img/design-elements/kaze-kanji-01.svg)
   background-position: right
   background-repeat: no-repeat
@@ -361,52 +473,10 @@ h3:after
   margin: 0 auto
   box-sizing: border-box
   @media(min-width: 800px)
-
     padding: 200px 10px
-
-
-.tour-types-wrapper
-  width: 90%
-  margin: 0 auto
-  @media(min-width: 1000px)
-    display: block
-    align-items: center
-    max-width: 960px
-.tour-type
-  width: 100%
-  padding: 30px 0
-  display: flex
-  justify-content: center
-  align-items: center
-  flex-direction: column
-  margin: 10px auto
-  transition: .2 ease-in-out
-  background-size: cover
-  background-position: bottom
-
-
-.tour-type:hover
-  transition: .1s
-  transform: translateX(-2px)
-.tour-type:nth-child(2):hover
-  transition: .1s
-  transform: translateX(2px)
-
-.tour-type-1
-  background-image: url(../img/photos/old-bike.jpg)
-
-.tour-type-2
-  background-image: url(../img/photos/mountain.jpg)
-
-.tour-type-3
-  background-image: url(../img/photos/water-tori.jpg)
-  background-position: top
-
-
-
-
-
-.booking
+/* homepage-booking-styles
+  ---------------------------------------------------------------------------------------------------- */
+.hp-booking
   background-image: url(../img/photos/hokkaido-5-mobile.jpg)
   background-size: cover
   padding: 100px 10px
@@ -414,6 +484,9 @@ h3:after
   @media(min-width:800px)
     background-image: url(../img/photos/hokkaido-5.JPG)
     padding: 200px 10px
+
+/* homepage-instagram-styles
+  ---------------------------------------------------------------------------------------------------- */
 .instagram-feed
   position: relative
   white-space: nowrap
@@ -490,60 +563,26 @@ h3:after
 
 .insta-message
   display: inline-block
-  color:
 
   @media(min-width:800px)
     display: inline-block
     vertical-align: middle
-
-
-
 
 .insta-img
   display: inline-block
   background-size: cover
   height: 300px
   width: 300px
-
-
-.insta-img-1
-  background-image: url(../img/photos/insta-1.jpg)
-.insta-img-2
-  background-image: url(../img/photos/insta-2.jpg)
-.insta-img-3
-  background-image: url(../img/photos/insta-3.jpg)
-.insta-img-4
-  background-image: url(../img/photos/insta-4.jpg)
-.insta-img-5
-  background-image: url(../img/photos/insta-5.jpg)
-
-footer
-  background-color: $base-color
-  padding: 10px 0
-  text-align: center
-.secondary-nav
-  text-align: center
-  max-width: 800px
-  margin: 0 auto
-  .nav-element
-    color: white
-    @media(min-width: 800px)
-      display: inline-block
+.insta-img:hover
+  opacity: .95
 
 
 
-.secondary-nav-logo
-  display: block
-  margin: 0 auto
-  width: 175px
-.secondary-nav-wrapper
-  text-align: center
 
-.legal-link
-  color: white
-  display: block
-  font-size: 12px
-//generic page styles
+
+/* page-styles
+  ---------------------------------------------------------------------------------------------------- */
+
 .page-splash
   background-size: cover
   padding: 100px 10px
@@ -558,50 +597,10 @@ footer
     h2
       text-shadow: $text-shadow-lightletters
 
+/* Page-about
+  ---------------------------------------------------------------------------------------------------- */
 
-.center-wrapper
-  display: block
-  @media(min-width:800px)
-    margin: 0 auto
-    display: flex
-    justify-content: space-around
-    max-width: 1200px
-.half-pic-half-text-text
-  text-align: center
-  width: 96%
-  margin: 40px auto 60px auto
-
-  @media(min-width:800px)
-    width: 49%
-    height: 400px
-    display: flex
-    justify-content: center
-    align-items: center
-    flex-direction: column
-    margin: 0
-
-
-
-.half-pic-half-text-pic
-  margin: 0 auto
-  width: 94%
-  height: 400px
-  background-size: cover
-  @media(min-width:800px)
-    width: 49%
-    height: 400px
-
-.reverse
-  flex-direction: row-reverse
-
-
-
-
-
-
-
-//about page
-.about-splash
+.page-about-splash
   background-image: url(../img/photos/two-shot-mobile.jpg)
   @media(min-width:800px)
     background-image: url(../img/photos/two-shot.jpg)
@@ -639,11 +638,10 @@ footer
   padding: 20px 0
   @media(min-width: 800px)
     padding: 50px 0 0 0
-
-.page-japan
-  padding: 20px 0
-  @media(min-width: 800px)
-    padding: 50px 0
+.ben
+  background-image: url(../img/photos/ben.jpg)
+.james
+  background-image: url(../img/photos/james.jpg)
 
 .half-half
   display: block
@@ -687,199 +685,60 @@ footer
   @media(min-width: 800px)
     width: 90%
 
+/* Page-japan
+  ---------------------------------------------------------------------------------------------------- */
+.page-japan-splash
+  background-image: url(../img/photos/japan-splash-mobile.jpg)
+  @media(min-width:800px)
+    background-image: url(../img/photos/japan-splash.jpg)
+.page-japan
+  padding: 20px 0
+  @media(min-width: 800px)
+    padding: 50px 0
+
 .inside-description
   box-sizing: border-box
   padding-left: 10px
   padding-right: 10px
-.ben
-  background-image: url(../img/photos/ben.jpg)
-.james
-  background-image: url(../img/photos/james.jpg)
 
-//japan
-.japan-splash
-  background-image: url(../img/photos/japan-splash-mobile.jpg)
-  @media(min-width:800px)
-    background-image: url(../img/photos/japan-splash.jpg)
-.colors
-  background-image: url(../img/photos/trees.jpg)
 
-//contact
-.contact-splash
+
+
+/* Page-contact
+  ---------------------------------------------------------------------------------------------------- */
+
+.page-contact-splash
   background-image: url(../img/photos/flower-mobile.jpg)
   @media(min-width:800px)
     background-image: url(../img/photos/flower.jpg)
-//tour-types
-.style-splash
+/* Page-testament
+  ---------------------------------------------------------------------------------------------------- */
+
+.page-testament-splash
   background-image: url(../img/photos/road-bend-mobile.jpg)
   background-position: bottom
   @media(min-width:800px)
     background-image: url(../img/photos/road-bend.jpg)
 
-//Destinations
-.destinations-splash
-  background-image: url(../img/photos/rice-fields-mobile.jpg)
-  background-position: bottom
-  @media(min-width:800px)
-    background-image: url(../img/photos/rice-fields.jpg)
 
-//booking
-.booking-splash
+
+/* Page-booking
+  ---------------------------------------------------------------------------------------------------- */
+
+.page-booking-splash
   background-image: url(../img/photos/roof-mobile.jpg)
 
   @media(min-width:800px)
     background-image: url(../img/photos/roof.jpg)
-//destination-general
+/* Page Destinations
+  ---------------------------------------------------------------------------------------------------- */
 
-.shikoku-splash
-  background-image: url(../img/photos/page-shikoku/shikoku-splash.jpg)
-  background-position: center
-.tohoku-splash
-  background-image: url(../img/photos/page-tohoku/tohoku-splash.jpg)
-  background-position: center
-.southern-alps-splash
-  background-image: url(../img/photos/page-southern-alps/southern-alps-splash.jpg)
-  background-position: center
-.kanto-splash
-  background-image: url(../img/photos/page-kanto/kanto-splash.jpg)
-  background-position: center
-.japan-sea-splash
-  background-image: url(../img/photos/page-japan-sea/japan-sea-splash.jpg)
-  background-position: center
-.kansai-splash
-  background-image: url(../img/photos/page-kansai/kansai-splash.jpg)
-  background-position: center
-.okinawa-splash
-  background-image: url(../img/photos/page-okinawa/okinawa-splash.jpg)
-  background-position: center
-.kyushu-splash
-  background-image: url(../img/photos/page-kyushu/kyushu-splash.jpg)
-  background-position: center
-.hokkaido-splash
-  background-image: url(../img/photos/page-hokkaido/hokkaido-splash.jpg)
-  background-position: center
-.kyushu-splash
-  background-image: url(../img/photos/page-kyushu/kyushu-splash.jpg)
-  background-position: center
-.splash-text
-  h2
-    text-shadow: none
-    color: white
-    line-height: 1
-    margin: 5px 0
-  span
-    color: $secondary-color
-
-
-
-
-
-  h1
-    text-shadow: none
-    line-height: 1
-    border-top: 2px white solid
-    border-bottom: 2px white solid
-    width: 50%
-    margin: 0 auto
-
-    @media(min-width:800px)
-      font-size: 120px
-      line-height: 1.1
-
-.story p
-  font-family: 'Merriweather', serif
-.tour-details
-  margin: 0 auto
-  width: 98%
-  max-width: 1200px
-  text-align: center
-  .section-space
-.background-contain
-  background-size: contain
-  background-repeat: no-repeat
-  
-.background-map-hokkaido
-  background-image: url(../img/design-elements/page-hokkaido/hokkaido-map.svg)
-.background-map-japan-sea
-  background-image: url(../img/design-elements/page-japan-sea/japan-sea-map.svg)
-.background-map-kansai
-  background-image: url(../img/design-elements/page-kansai/kansai-map.svg)
-.background-map-kanto
-  background-image: url(../img/design-elements/page-kanto/kanto-map.svg)
-.background-map-kyushu
-  background-image: url(../img/design-elements/page-kyushu/kyushu-map.svg)
-.background-map-okinawa
-  background-image: url(../img/design-elements/page-okinawa/okinawa-map.svg)
-.background-map-shikoku
-  background-image: url(../img/design-elements/page-shikoku/shikoku-map.svg)
-.background-map-southern-alps
-  background-image: url(../img/design-elements/page-southern-alps/southern-alps-map.svg)
-.background-map-tohoku
-  background-image: url(../img/design-elements/page-tohoku/tohoku-map.svg)
-
-
-
-
-  
-
-.story-vertical-picture
-  height: 500px
-  background-position: bottom right
-  @media(min-width:400px)
-    height: 900px
+.page-destinations-splash
+  background-image: url(../img/photos/rice-fields-mobile.jpg)
+  background-position: bottom
   @media(min-width:800px)
-    height: 800px
-.story-vertical-text
-  
-  @media(min-width:800px)
-    height: 800px
-    
-.availability
-  padding-top: 200px
-
-.background-add-padding.shikoku
-  background-image: url(../img/photos/page-shikoku/river-1.jpg)
-
-  @media(min-width:800px)
-    background-image: url(../img/photos/page-shikoku/river-1.jpg)
-    background-size: auto
-
-
-  
-  @media(min-width:800px)
-    display: flex
-    flex-direction: row
-    justify-content: space-around
-    width: 98%
-    max-width: 1200px
-    margin: 0 auto
-  .two-picture-wrapper
-
-    @media(min-width:400px)
-    width: 94%
-    margin: 0 auto
-    clear: both
-    content: ""
-    display: table
-    @media(min-width:800px)
-      width: 50%
-    
-    .picture-text-wrapper
-      width: 100%
-      margin: 0 auto
-      @media(min-width:400px)
-        width: 50%
-        float: left
-      .four-picture
-        width: 100%
-        height: 500px
-        background-size: cover
-        margin: 0 auto
-        @media(min-width:400px)
-          height: 450px
-          width: 98%
-
-.destinations-row-wrapper
+    background-image: url(../img/photos/rice-fields.jpg)
+.page-destinations-row-wrapper
   margin: 0 auto
   max-width: 98%
   display: block
@@ -888,63 +747,28 @@ footer
     display: flex
     flex-direction: row
     justify-content: space-around
-  
-.destination-page
+
+.page-destination
   width: 95%
-  
   margin: 5px auto
   max-width: 500px
   padding: 35px 0
   background-size: cover
   display: block
-  
   @media(min-width:750px)
     width: 33%
     padding: 80px 0
-    
-.destination-page:hover
+
+.page-destination:hover
   transition: .2s ease-in-out
   box-shadow: 1px 1px 8px #999
   h3:after
     width: 100px
     transition: .2s ease-in-out
-.padding-bottom
-  padding: 0
-  @media(min-width: 800px)
-    padding-bottom: 50px
-.padding-bottom-mobile
-  padding-bottom: 50px    
-.destinations-map
-  width: 50%
-  max-width: 600px
-.container
-  margin: 0 auto
-  width: 100%
-  max-width: 1200px
-  padding: 0 50px
-  
-.flex-container
-  display: block
-  @media(min-width:750px)
-    display: flex
-    margin: 30px auto
-    justify-content: center
-    width: 98%
-    max-width: 1200px
-  
-  
 
-.text-container
-  width: 98%
-  margin: 0 auto
-  @media(min-width:750px)
-    width: 40%
-    padding-top: 200px
-    background-image: url(../img/design-elements/oi-kaze-vertical-background.svg) 
-    background-size: contain
-    background-repeat: no-repeat
-    background-position: center
-    
+/* Destinations-Map
+  ---------------------------------------------------------------------------------------------------- */
+
 .map
   width: 300px
   height: 300px
@@ -1012,46 +836,151 @@ footer
   fill: #0282C8
   .japan-sea-letters
     fill: $hover-letters
-.image-responsive
-  height: auto
-  width: 100%
-.serif-font
+
+/* Destination-specific
+  ---------------------------------------------------------------------------------------------------- */
+
+.shikoku-splash
+  background-image: url(../img/photos/page-shikoku/shikoku-splash.jpg)
+  background-position: center
+.tohoku-splash
+  background-image: url(../img/photos/page-tohoku/tohoku-splash.jpg)
+  background-position: center
+.southern-alps-splash
+  background-image: url(../img/photos/page-southern-alps/southern-alps-splash.jpg)
+  background-position: center
+.kanto-splash
+  background-image: url(../img/photos/page-kanto/kanto-splash.jpg)
+  background-position: center
+.japan-sea-splash
+  background-image: url(../img/photos/page-japan-sea/japan-sea-splash.jpg)
+  background-position: center
+.kansai-splash
+  background-image: url(../img/photos/page-kansai/kansai-splash.jpg)
+  background-position: center
+.okinawa-splash
+  background-image: url(../img/photos/page-okinawa/okinawa-splash.jpg)
+  background-position: center
+.kyushu-splash
+  background-image: url(../img/photos/page-kyushu/kyushu-splash.jpg)
+  background-position: center
+.hokkaido-splash
+  background-image: url(../img/photos/page-hokkaido/hokkaido-splash.jpg)
+  background-position: center
+.kyushu-splash
+  background-image: url(../img/photos/page-kyushu/kyushu-splash.jpg)
+  background-position: center
+
+.splash-text
+  h2
+    text-shadow: none
+    color: white
+    line-height: 1
+    margin: 5px 0
+  span
+    color: $secondary-color
+
+  h1
+    text-shadow: none
+    line-height: 1
+    border-top: 2px white solid
+    border-bottom: 2px white solid
+    width: 50%
+    margin: 0 auto
+
+    @media(min-width:800px)
+      font-size: 120px
+      line-height: 1.1
+
+.story p
   font-family: 'Merriweather', serif
-.sans-font
-  font-family: 'Oswald', sans-serif
-.container
-  margin: 20px auto
+.tour-details
+  margin: 0 auto
   width: 98%
   max-width: 1200px
-  padding: 0
   text-align: center
-  .row-flex
-    display: block
-    @media(min-width:750px)
-      display: flex
-      justify-content: center
-      align-items: center
-    .three
-      box-sizing: border-box
-      width: 100%
-      padding: 0 .5rem
-      @media(min-width:750px)
-        width: 33%
-        padding: 0 .5rem
-    .six
-      box-sizing: border-box
-      width: 100%
-      padding: 0 .5rem
-      @media(min-width:750px)
-        width: 50%
-        padding: 0 .5rem
-        
-    .text-padding 
-      padding: 1rem 0
-      @media(min-width:750px)
-        padding: 0
-  .top-align
-    align-items: flex-start
-.flex-reverse
-  flex-direction: row-reverse
+  .section-space
+.background-contain
+  background-size: contain
+  background-repeat: no-repeat
 
+.background-map-hokkaido
+  background-image: url(../img/design-elements/page-hokkaido/hokkaido-map.svg)
+.background-map-japan-sea
+  background-image: url(../img/design-elements/page-japan-sea/japan-sea-map.svg)
+.background-map-kansai
+  background-image: url(../img/design-elements/page-kansai/kansai-map.svg)
+.background-map-kanto
+  background-image: url(../img/design-elements/page-kanto/kanto-map.svg)
+.background-map-kyushu
+  background-image: url(../img/design-elements/page-kyushu/kyushu-map.svg)
+.background-map-okinawa
+  background-image: url(../img/design-elements/page-okinawa/okinawa-map.svg)
+.background-map-shikoku
+  background-image: url(../img/design-elements/page-shikoku/shikoku-map.svg)
+.background-map-southern-alps
+  background-image: url(../img/design-elements/page-southern-alps/southern-alps-map.svg)
+.background-map-tohoku
+  background-image: url(../img/design-elements/page-tohoku/tohoku-map.svg)
+
+
+.story-vertical-picture
+  height: 500px
+  background-position: bottom right
+  @media(min-width:400px)
+    height: 900px
+  @media(min-width:800px)
+    height: 800px
+.story-vertical-text
+
+  @media(min-width:800px)
+    height: 800px
+
+.background-add-padding.shikoku
+  background-image: url(../img/photos/page-shikoku/river-1.jpg)
+
+  @media(min-width:800px)
+    background-image: url(../img/photos/page-shikoku/river-1.jpg)
+    background-size: auto
+
+  @media(min-width:800px)
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    width: 98%
+    max-width: 1200px
+    margin: 0 auto
+  .two-picture-wrapper
+
+    @media(min-width:400px)
+    width: 94%
+    margin: 0 auto
+    clear: both
+    content: ""
+    display: table
+    @media(min-width:800px)
+      width: 50%
+
+    .picture-text-wrapper
+      width: 100%
+      margin: 0 auto
+      @media(min-width:400px)
+        width: 50%
+        float: left
+      .four-picture
+        width: 100%
+        height: 500px
+        background-size: cover
+        margin: 0 auto
+        @media(min-width:400px)
+          height: 450px
+          width: 98%
+
+
+
+.padding-bottom
+  padding: 0
+  @media(min-width: 800px)
+    padding-bottom: 50px
+.padding-bottom-mobile
+  padding-bottom: 50px

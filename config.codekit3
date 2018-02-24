@@ -27,6 +27,16 @@
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
+	"\/css\/magnific.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/magnific-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/normalize.css": {
 		"aP": 1,
 		"bl": 0,
@@ -97,6 +107,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/flower-bg-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/home-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/home-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/house-icon-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/house-icon-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -260,8 +290,8 @@
 		"oA": 0,
 		"oAP": "\/img\/design-elements\/logo-4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -271,10 +301,30 @@
 		"oA": 0,
 		"oAP": "\/img\/design-elements\/logo-5.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/design-elements\/logo-basic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/logo-basic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/design-elements\/mouri-divider.svg": {
 		"ft": 2097152,
@@ -642,6 +692,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/page-southern-alps\/southern-alps-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-southern-alps\/southern-alps-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/page-tohoku\/calendar-tohoku-mobile.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -672,6 +732,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/page-tohoku\/tohoku-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-tohoku\/tohoku-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/sumi-divider-orange.png": {
 		"ft": 32768,
 		"iS": 1461,
@@ -682,6 +752,22 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/design-elements\/title-page-text.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/title-page-text.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/title-page-text.svgz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/title-page-text.svgz",
+		"oF": 0
 		},
 	"\/img\/design-elements\/wind.svg": {
 		"ft": 2097152,
@@ -768,6 +854,16 @@
 		"iS": 55256,
 		"oA": 0,
 		"oAP": "\/img\/photos\/fuji-rock-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/fuji-rock-test.jpg": {
+		"ft": 16384,
+		"iS": 201940,
+		"oA": 0,
+		"oAP": "\/img\/photos\/fuji-rock-test.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1607,6 +1703,15 @@
 		"oAP": "\/japan.html",
 		"oF": 0
 		},
+	"\/js\/custom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/custom-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/functions-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1625,12 +1730,30 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/instafeed.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/instafeed.min-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/jquery-3.2.1.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery-3.2.1.min-min.js",
 		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/magnific.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/magnific.min-min.js",
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
