@@ -83,13 +83,14 @@ p {
   text-align: center;
   transition: .5s ease-in-out;
   color: #1F3566;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   cursor: pointer; }
 
 .btn:hover {
   transition: .2s ease-in-out;
-  box-shadow: 1px 1px 8px #999; }
+  box-shadow: 1px 1px 8px #999;
+  background-color: rgba(255, 255, 255, 0.7); }
 
 .white {
   color: white; }
@@ -228,16 +229,23 @@ header {
 
 .nav-logo-narrow {
   margin: 0 auto;
-  display: block; }
+  display: block;
+  padding-top: 7px; }
   @media (min-width: 800px) {
     .nav-logo-narrow {
+      display: none; } }
+
+.nav-responsive {
+  height: 40px; }
+  @media (min-width: 800px) {
+    .nav-responsive {
       display: none; } }
 
 /* nav-responsive
   ---------------------------------------------------------------------------------------------------- */
 .hamburger {
   position: fixed;
-  top: 10px;
+  top: 8px;
   right: 10px;
   cursor: pointer;
   content: ""; }
@@ -340,17 +348,23 @@ footer {
 .leader {
   padding-top: 10px;
   text-align: center;
-  background-image: url(../img/photos/fuji-rock-mobile.jpg);
-  height: 400px;
+  background-image: url(../img/photos/fuji-rock-mobile-portrait.jpg);
+  height: calc(100vh - 40px);
   background-size: cover;
   background-position: top; }
+  @media (min-width: 400px) {
+    .leader {
+      background-image: url(../img/photos/fuji-rock-mobile.jpg); } }
   @media (min-width: 800px) {
     .leader {
       background-image: url(../img/photos/fuji-rock.jpg);
       height: calc(100vh - 40px); } }
 
 .leader-text {
-  width: 80%; }
+  width: 100%; }
+  @media (min-width: 800px) {
+    .leader-text {
+      width: 80%; } }
 
 /* homepage-about-styles
   ---------------------------------------------------------------------------------------------------- */
@@ -371,7 +385,7 @@ footer {
   padding: 100px 10px; }
   @media (min-width: 800px) {
     .hp-slogan {
-      background-image: url(../img/photos/fuji.JPG);
+      background-image: url(../img/photos/sakura-temple-2.jpg);
       padding: 200px 10px; } }
 
 /* homepage-destinations-styles
@@ -518,11 +532,8 @@ h3:after {
   position: relative;
   white-space: nowrap;
   overflow: scroll;
-  width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   cursor: grab;
-  padding-top: 50px;
   padding-bottom: 50px; }
   @media (min-width: 800px) {
     .instagram-feed {
@@ -534,21 +545,24 @@ h3:after {
 .insta-wrapper-mobile {
   height: 50px;
   text-align: center;
-  padding: 40px 0 50px 0;
+  padding: 20px 0 20px 0;
   display: block; }
   @media (min-width: 800px) {
     .insta-wrapper-mobile {
-      padding: 20px 0 20px 0; } }
+      padding: 50px 0 50px 0; } }
 
 .insta-logo-mobile {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 5px; }
   @media (min-width: 800px) {
     .insta-logo-mobile {
-      display: inline-block;
-      vertical-align: middle;
+      height: 50px;
+      width: 50px;
       padding: 0 20px; } }
 
 .insta-wrapper {

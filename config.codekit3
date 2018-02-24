@@ -27,6 +27,16 @@
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
+	"\/css\/magnific-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/magnific-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/magnific.css": {
 		"aP": 1,
 		"bl": 0,
@@ -742,6 +752,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/secondary-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/secondary-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/sumi-divider-orange.png": {
 		"ft": 32768,
 		"iS": 1461,
@@ -844,6 +864,16 @@
 		"iS": 265685,
 		"oA": 0,
 		"oAP": "\/img\/photos\/fuji-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/fuji-rock-mobile-portrait.jpg": {
+		"ft": 16384,
+		"iS": 55256,
+		"oA": 0,
+		"oAP": "\/img\/photos\/fuji-rock-mobile-portrait.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1529,6 +1559,47 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/sakura-temple-2.jpeg": {
+		"ft": 16384,
+		"iS": 759497,
+		"oA": 0,
+		"oAP": "\/img\/photos\/sakura-temple-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/sakura-temple-2.jpg": {
+		"ft": 16384,
+		"iS": 564683,
+		"oA": 0,
+		"oAP": "\/img\/photos\/sakura-temple-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/sakura-temple-2.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/photos\/sakura-temple-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/photos\/sakura-temple.jpeg": {
+		"ft": 16384,
+		"iS": 966661,
+		"oA": 0,
+		"oAP": "\/img\/photos\/sakura-temple.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/shikoku-1.JPG": {
 		"ft": 16384,
 		"iS": 5190187,
@@ -1604,6 +1675,16 @@
 		"iS": 210878,
 		"oA": 0,
 		"oAP": "\/img\/photos\/team.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/temple-wood.jpeg": {
+		"ft": 16384,
+		"iS": 1135490,
+		"oA": 0,
+		"oAP": "\/img\/photos\/temple-wood.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
