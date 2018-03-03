@@ -86,6 +86,12 @@
 		"oAP": "\/destinations.html",
 		"oF": 0
 		},
+	"\/form.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/form.php",
+		"oF": 0
+		},
 	"\/hokkaido.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -422,6 +428,12 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/page-hokkaido\/fullchain.pem": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-hokkaido\/fullchain.pem",
+		"oF": 0
+		},
 	"\/img\/design-elements\/page-hokkaido\/hokkaido-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -632,6 +644,36 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/page-shikoku\/calendar-japan-colors.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-shikoku\/calendar-japan-colors.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-shikoku\/calendar-japan-jan-july.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-shikoku\/calendar-japan-jan-july.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-shikoku\/calendar-japan-july-december.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-shikoku\/calendar-japan-july-december.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/page-shikoku\/calendar-shikoku-mobile.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -798,6 +840,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/photos\/availability_bg.jpg": {
+		"ft": 16384,
+		"iS": 313655,
+		"oA": 0,
+		"oAP": "\/img\/photos\/availability_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/photos\/ben.jpg": {
 		"ft": 16384,
@@ -1534,6 +1586,16 @@
 		"iS": 0,
 		"oA": 0,
 		"oAP": "\/img\/photos\/road-bend.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/road-story.jpg": {
+		"ft": 16384,
+		"iS": 222569,
+		"oA": 0,
+		"oAP": "\/img\/photos\/road-story.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
