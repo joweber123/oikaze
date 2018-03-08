@@ -117,6 +117,10 @@ p
 .image-responsive
   height: auto
   width: 100%
+.vertical
+  width: 100%
+  @media(min-width:750px)
+    width: 70%
 
 .serif-font
   font-weight: extra-light
@@ -188,8 +192,10 @@ p
     width: 100%
     border-bottom: 1px blue solid
 figure
-  width: 70%
+  width: 100%
   margin: 0 auto
+  @media(min-width:750px)
+    width: 70%
   i
     font-size: 14px
     font-family: 'Lato', sans-serif
