@@ -11,68 +11,11 @@ $(".close-button").click(function(){
 });
 
 
+$(".loader-wrapper").fadeOut(1);
+$(".loader-site-wrapper").fadeIn(600);
+
 });
 
-document.getElementById("hokkaido").addEventListener("click", myFunction);
-
-function myFunction() {
-  document.getElementById("pref-name").innerHTML = "YOU CLICKED ME!";
-}
-
-var container = document.querySelector('.instagram-feed');
-
-
-var cloneImg1 = document.querySelector('.insta-img-1').cloneNode(false);
-var cloneImg1c2 = document.querySelector('.insta-img-1').cloneNode(false);
-var cloneImg2c1 = document.querySelector('.insta-img-2').cloneNode(false);
-var cloneImg2c2 = document.querySelector('.insta-img-2').cloneNode(false);
-var cloneImg3c1 = document.querySelector('.insta-img-3').cloneNode(false);
-var cloneImg3c2 = document.querySelector('.insta-img-3').cloneNode(false);
-var cloneImg4c1 = document.querySelector('.insta-img-4').cloneNode(false);
-var cloneImg4c2 = document.querySelector('.insta-img-4').cloneNode(false);
-var cloneImg5 = document.querySelector('.insta-img-5').cloneNode(false);
 
 
 
-
-
-
-container.insertBefore(cloneImg2c1, document.querySelector('.insta-img-1'));
-container.insertBefore(cloneImg3c1, document.querySelector('.insta-img-1'));
-
-container.insertBefore(cloneImg4c1, document.querySelector('.insta-img-1'));
-
-container.insertBefore(cloneImg5, document.querySelector('.insta-img-1'));
-container.appendChild(cloneImg1);
-container.appendChild(cloneImg2c2);
-container.appendChild(cloneImg3c2);
-container.appendChild(cloneImg4c2);
-
-
-
-
-//Step 3: Adding an infinite scroll effect
-var sliderStartForward = document.querySelector('.insta-img:nth-child(5)').getBoundingClientRect().left;
-var sliderEndForward = document.querySelector('.insta-img:nth-child(10)').getBoundingClientRect().right - 10;
-var sliderStartBackward = document.querySelector('.insta-img:nth-child(6)').getBoundingClientRect().right;
-console.log(sliderEndForward);
-console.log(sliderStartForward);
-console.log(sliderStartBackward);
-
-// We're repositionning our slider to our first true image
-// as currently the first image we're seing is a clone
-container.scrollLeft = sliderStartForward;
-
-container.addEventListener('scroll', scrolling);
-
-function scrolling() {
-  console.log(container.scrollLeft);
-  // We're sliding backwards and reached the end
-  if (container.scrollLeft < 1) {
-    container.scrollLeft = sliderStartBackward;
-  }
-
-  if(container.scrollLeft > sliderEndForward){
-    container.scrollLeft = sliderStartForward;
-  }
-}

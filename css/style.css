@@ -237,6 +237,50 @@ figure {
       background-repeat: no-repeat;
       background-position: center; } }
 
+/* Loader
+  ---------------------------------------------------------------------------------------------------- */
+.loader-wrapper {
+  position: absolute;
+  top: calc(50% - 83px);
+  left: calc(50% - 132px); }
+
+.loader-site-wrapper {
+  display: none; }
+
+#loader {
+  width: 265px;
+  height: 130px; }
+
+#loader-text {
+  margin-top: -20px;
+  animation-name: throb;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+@keyframes throb {
+  0% {
+    transform: translateX(40px); }
+  50% {
+    transform: translateX(-40px); }
+  100% {
+    transform: translateX(40px); } }
+
+#svg-loader {
+  animation-name: riding;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: 50% 50%; }
+
+@keyframes riding {
+  0 {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(4deg); }
+  100% {
+    transform: rotate(0deg); } }
+
 /* Nav
   ---------------------------------------------------------------------------------------------------- */
 header {

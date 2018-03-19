@@ -21,6 +21,12 @@
 		"oAP": "\/booking.html",
 		"oF": 0
 		},
+	"\/build\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
 	"\/contact.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -44,6 +50,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/magnific-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/normalize-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/normalize-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -103,6 +119,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/amakusa-divider.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/bike-loader.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/bike-loader.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -215,7 +241,7 @@
 		"oAP": "\/img\/design-elements\/japanese-background-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/design-elements\/japanese-background.png": {
@@ -224,8 +250,8 @@
 		"oA": 0,
 		"oAP": "\/img\/design-elements\/japanese-background.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -236,7 +262,7 @@
 		"oAP": "\/img\/design-elements\/japanese-bg-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/design-elements\/japanese-symbol-2.svg": {
@@ -295,8 +321,8 @@
 		"oA": 0,
 		"oAP": "\/img\/design-elements\/logo-4-white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -690,8 +716,8 @@
 		"oA": 0,
 		"oAP": "\/img\/design-elements\/page-shikoku\/calendar-japan-trees.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -841,8 +867,8 @@
 		"oA": 0,
 		"oAP": "\/img\/design-elements\/sumi-divider-orange.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -862,6 +888,22 @@
 		"oAP": "\/img\/design-elements\/title-page-text.svgz",
 		"oF": 0
 		},
+	"\/img\/design-elements\/wheel.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/wheel.ai",
+		"oF": 0
+		},
+	"\/img\/design-elements\/wheel.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/wheel.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/wind.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -879,7 +921,7 @@
 		"oAP": "\/img\/photos\/availability_bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/ben.jpg": {
@@ -889,7 +931,7 @@
 		"oAP": "\/img\/photos\/ben.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/dest-shikoku-1.jpg": {
@@ -899,7 +941,7 @@
 		"oAP": "\/img\/photos\/dest-shikoku-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/dest-shikoku-2.jpg": {
@@ -909,7 +951,7 @@
 		"oAP": "\/img\/photos\/dest-shikoku-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/dest-shikoku-3.jpg": {
@@ -919,7 +961,7 @@
 		"oAP": "\/img\/photos\/dest-shikoku-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/flower-mobile.jpg": {
@@ -929,7 +971,7 @@
 		"oAP": "\/img\/photos\/flower-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/flower.jpg": {
@@ -939,7 +981,7 @@
 		"oAP": "\/img\/photos\/flower.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/fuji-mobile.jpg": {
@@ -969,7 +1011,7 @@
 		"oAP": "\/img\/photos\/fuji-rock-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/fuji-rock-test.jpg": {
@@ -979,7 +1021,7 @@
 		"oAP": "\/img\/photos\/fuji-rock-test.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/fuji-rock.jpg": {
@@ -989,12 +1031,12 @@
 		"oAP": "\/img\/photos\/fuji-rock.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/img\/photos\/fuji.JPG": {
+	"\/img\/photos\/fuji.jpg": {
 		"ft": 16384,
-		"iS": 6493751,
+		"iS": 532517,
 		"oA": 0,
 		"oAP": "\/img\/photos\/fuji.jpg",
 		"oF": 0,
@@ -1012,9 +1054,9 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/photos\/hokkaido-3.JPG": {
+	"\/img\/photos\/hokkaido-3.jpg": {
 		"ft": 16384,
-		"iS": 4009893,
+		"iS": 3960470,
 		"oA": 0,
 		"oAP": "\/img\/photos\/hokkaido-3.jpg",
 		"oF": 0,
@@ -1022,9 +1064,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/hokkaido-4.JPG": {
+	"\/img\/photos\/hokkaido-4.jpg": {
 		"ft": 16384,
-		"iS": 4946348,
+		"iS": 4538055,
 		"oA": 0,
 		"oAP": "\/img\/photos\/hokkaido-4.jpg",
 		"oF": 0,
@@ -1059,7 +1101,7 @@
 		"oAP": "\/img\/photos\/hokkaido-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/hokkaido-destination.jpg": {
@@ -1069,12 +1111,12 @@
 		"oAP": "\/img\/photos\/hokkaido-destination.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/img\/photos\/hokkaido.JPG": {
+	"\/img\/photos\/hokkaido.jpg": {
 		"ft": 16384,
-		"iS": 7852638,
+		"iS": 7520278,
 		"oA": 0,
 		"oAP": "\/img\/photos\/hokkaido.jpg",
 		"oF": 0,
@@ -1089,7 +1131,7 @@
 		"oAP": "\/img\/photos\/insta-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/insta-2.jpg": {
@@ -1099,7 +1141,7 @@
 		"oAP": "\/img\/photos\/insta-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/insta-3.jpg": {
@@ -1109,7 +1151,7 @@
 		"oAP": "\/img\/photos\/insta-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/insta-4.jpg": {
@@ -1119,7 +1161,7 @@
 		"oAP": "\/img\/photos\/insta-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/insta-5.jpg": {
@@ -1129,7 +1171,7 @@
 		"oAP": "\/img\/photos\/insta-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/insta-6.jpg": {
@@ -1139,7 +1181,7 @@
 		"oAP": "\/img\/photos\/insta-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/izu-2.jpg": {
@@ -1149,7 +1191,7 @@
 		"oAP": "\/img\/photos\/izu-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/izu-3.jpg": {
@@ -1159,7 +1201,7 @@
 		"oAP": "\/img\/photos\/izu-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/izu.jpg": {
@@ -1169,7 +1211,7 @@
 		"oAP": "\/img\/photos\/izu.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/james.jpg": {
@@ -1179,7 +1221,7 @@
 		"oAP": "\/img\/photos\/james.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/japan-sea-destination-thumb.jpg": {
@@ -1189,7 +1231,7 @@
 		"oAP": "\/img\/photos\/japan-sea-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/japan-splash-mobile.jpg": {
@@ -1199,7 +1241,7 @@
 		"oAP": "\/img\/photos\/japan-splash-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/japan-splash.jpg": {
@@ -1209,7 +1251,7 @@
 		"oAP": "\/img\/photos\/japan-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/kansai-destination-thumb.jpg": {
@@ -1219,7 +1261,7 @@
 		"oAP": "\/img\/photos\/kansai-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/kanto-destination-thumb.jpg": {
@@ -1229,7 +1271,7 @@
 		"oAP": "\/img\/photos\/kanto-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/kawaguchiko-mobile.jpg": {
@@ -1269,7 +1311,7 @@
 		"oAP": "\/img\/photos\/kyushu-thumb-destination.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/kyushuu.jpg": {
@@ -1282,9 +1324,9 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/photos\/kyuushu-2.JPG": {
+	"\/img\/photos\/kyuushu-2.jpg": {
 		"ft": 16384,
-		"iS": 7787773,
+		"iS": 7005523,
 		"oA": 0,
 		"oAP": "\/img\/photos\/kyuushu-2.jpg",
 		"oF": 0,
@@ -1292,9 +1334,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/kyuushu-3.JPG": {
+	"\/img\/photos\/kyuushu-3.jpg": {
 		"ft": 16384,
-		"iS": 2363904,
+		"iS": 1516010,
 		"oA": 0,
 		"oAP": "\/img\/photos\/kyuushu-3.jpg",
 		"oF": 0,
@@ -1302,9 +1344,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/kyuushuu-4.JPG": {
+	"\/img\/photos\/kyuushuu-4.jpg": {
 		"ft": 16384,
-		"iS": 2183387,
+		"iS": 1985308,
 		"oA": 0,
 		"oAP": "\/img\/photos\/kyuushuu-4.jpg",
 		"oF": 0,
@@ -1319,7 +1361,7 @@
 		"oAP": "\/img\/photos\/okinawa-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/old-bike.jpg": {
@@ -1329,7 +1371,7 @@
 		"oAP": "\/img\/photos\/old-bike.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-hokkaido\/hokkaido-splash.jpg": {
@@ -1339,7 +1381,7 @@
 		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-japan-sea\/japan-sea-splash.jpg": {
@@ -1349,7 +1391,7 @@
 		"oAP": "\/img\/photos\/page-japan-sea\/japan-sea-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-kansai\/kansai-splash.jpg": {
@@ -1359,7 +1401,7 @@
 		"oAP": "\/img\/photos\/page-kansai\/kansai-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-kanto\/kanto-splash.jpg": {
@@ -1369,7 +1411,7 @@
 		"oAP": "\/img\/photos\/page-kanto\/kanto-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-kyushu\/kyushu-splash.jpg": {
@@ -1389,7 +1431,7 @@
 		"oAP": "\/img\/photos\/page-okinawa\/okinawa-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/ben-bike-greenwall.jpg": {
@@ -1399,7 +1441,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/ben-bike-greenwall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/ben-bike-sakura.jpg": {
@@ -1409,7 +1451,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/ben-bike-sakura.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/ben-bike-waterfall.jpg": {
@@ -1419,7 +1461,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/ben-bike-waterfall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/bridge.jpg": {
@@ -1429,7 +1471,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/bridge.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/cherry-blossoms.JPG": {
@@ -1439,7 +1481,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/cherry-blossoms.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/james-stretching.jpg": {
@@ -1449,7 +1491,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/james-stretching.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/japan_map.jpg": {
@@ -1459,7 +1501,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/japan_map.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/koi-nobori.jpg": {
@@ -1469,7 +1511,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/koi-nobori.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/lake-scenery.jpg": {
@@ -1479,7 +1521,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/lake-scenery.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/river-1.jpg": {
@@ -1489,7 +1531,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/river-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/shikoku-splash.jpg": {
@@ -1509,7 +1551,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/small-waterfall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/three-shot.jpg": {
@@ -1519,7 +1561,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/three-shot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/tori-waterfall.jpg": {
@@ -1529,7 +1571,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/tori-waterfall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/town-distance.jpg": {
@@ -1539,7 +1581,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/town-distance.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/tunnel-entrance.jpg": {
@@ -1549,7 +1591,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/tunnel-entrance.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/two-shot-standing-with-bikes.jpg": {
@@ -1559,7 +1601,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/two-shot-standing-with-bikes.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-shikoku\/village-james-in-distance.jpg": {
@@ -1569,7 +1611,7 @@
 		"oAP": "\/img\/photos\/page-shikoku\/village-james-in-distance.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-southern-alps\/southern-alps-splash.jpg": {
@@ -1579,7 +1621,7 @@
 		"oAP": "\/img\/photos\/page-southern-alps\/southern-alps-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/page-tohoku\/tohoku-splash.jpg": {
@@ -1589,7 +1631,7 @@
 		"oAP": "\/img\/photos\/page-tohoku\/tohoku-splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/rice-fields-mobile.jpg": {
@@ -1599,7 +1641,7 @@
 		"oAP": "\/img\/photos\/rice-fields-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/rice-fields.jpg": {
@@ -1619,7 +1661,7 @@
 		"oAP": "\/img\/photos\/road-ben-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/road-bend.jpg": {
@@ -1629,7 +1671,7 @@
 		"oAP": "\/img\/photos\/road-bend.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/road-story.jpg": {
@@ -1639,7 +1681,7 @@
 		"oAP": "\/img\/photos\/road-story.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/roof-mobile.jpg": {
@@ -1649,7 +1691,7 @@
 		"oAP": "\/img\/photos\/roof-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/roof.jpg": {
@@ -1659,7 +1701,7 @@
 		"oAP": "\/img\/photos\/roof.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/sakura-temple-2.jpeg": {
@@ -1700,12 +1742,22 @@
 		"oAP": "\/img\/photos\/sakura-temple.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/sakura-temple.jpg": {
+		"ft": 16384,
+		"iS": 924585,
+		"oA": 0,
+		"oAP": "\/img\/photos\/sakura-temple.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/shikoku-1.JPG": {
+	"\/img\/photos\/shikoku-1.jpg": {
 		"ft": 16384,
-		"iS": 5190187,
+		"iS": 5067920,
 		"oA": 0,
 		"oAP": "\/img\/photos\/shikoku-1.jpg",
 		"oF": 0,
@@ -1713,9 +1765,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/shikoku-3.JPG": {
+	"\/img\/photos\/shikoku-3.jpg": {
 		"ft": 16384,
-		"iS": 7132584,
+		"iS": 6201495,
 		"oA": 0,
 		"oAP": "\/img\/photos\/shikoku-3.jpg",
 		"oF": 0,
@@ -1730,7 +1782,7 @@
 		"oAP": "\/img\/photos\/shikoku-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/southern-alps-destination-thumb.jpg": {
@@ -1740,7 +1792,7 @@
 		"oAP": "\/img\/photos\/southern-alps-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/team-group-mobile.jpg": {
@@ -1750,7 +1802,7 @@
 		"oAP": "\/img\/photos\/team-group-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/team-group.jpg": {
@@ -1760,7 +1812,7 @@
 		"oAP": "\/img\/photos\/team-group.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/team-mobile.jpg": {
@@ -1770,7 +1822,7 @@
 		"oAP": "\/img\/photos\/team-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/team.jpg": {
@@ -1780,7 +1832,7 @@
 		"oAP": "\/img\/photos\/team.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/temple-wood.jpeg": {
@@ -1790,12 +1842,22 @@
 		"oAP": "\/img\/photos\/temple-wood.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/temple-wood.jpg": {
+		"ft": 16384,
+		"iS": 1106119,
+		"oA": 0,
+		"oAP": "\/img\/photos\/temple-wood.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/tohoku 1.JPG": {
+	"\/img\/photos\/tohoku 1.jpg": {
 		"ft": 16384,
-		"iS": 6268928,
+		"iS": 5507768,
 		"oA": 0,
 		"oAP": "\/img\/photos\/tohoku 1.jpg",
 		"oF": 0,
@@ -1803,9 +1865,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/tohoku-2.JPG": {
+	"\/img\/photos\/tohoku-2.jpg": {
 		"ft": 16384,
-		"iS": 6460928,
+		"iS": 5611508,
 		"oA": 0,
 		"oAP": "\/img\/photos\/tohoku-2.jpg",
 		"oF": 0,
@@ -1820,7 +1882,7 @@
 		"oAP": "\/img\/photos\/tohoku-destination-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/trees.jpg": {
@@ -1830,7 +1892,7 @@
 		"oAP": "\/img\/photos\/trees.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/two-shot-mobile.jpg": {
@@ -1840,7 +1902,7 @@
 		"oAP": "\/img\/photos\/two-shot-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/two-shot.jpg": {
@@ -1850,7 +1912,7 @@
 		"oAP": "\/img\/photos\/two-shot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/water-tori.jpg": {
@@ -1860,7 +1922,7 @@
 		"oAP": "\/img\/photos\/water-tori.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.html": {
@@ -1920,6 +1982,15 @@
 		"oA": 1,
 		"oAP": "\/js\/instafeed.min-min.js",
 		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery-3.2.1.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery-3.2.1.min-min-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -2004,7 +2075,8 @@
 	"creationDate": 537514193,
 	"displayValue": "oikaze",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-trap"
+	"iconImageName": "meme-trap",
+	"lastBuiltDate": 542703908
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
