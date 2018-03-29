@@ -50,9 +50,11 @@ h2
   font-size: 40px
   font-weight: 600
   margin-bottom: 0
+  line-height: 1.2
   @media(min-width: 400px)
     font-size: 60px
     margin: 0
+    line-height: 1.6
 h3
   color: white
   font-size: 40px
@@ -131,8 +133,8 @@ p
   font-family: 'Oswald', sans-serif
 .container-calender
   margin: 20px auto
-  width: 98%
-  max-width: 1000px
+  width: 100%
+  max-width: 750px
   padding: 0
   text-align: center
   box-sizing: border-box
@@ -149,55 +151,55 @@ p
       display: flex
       justify-content: center
       align-items: center
-    .three
+      width: 100%
+      max-width: 750px
+      margin: 0 auto
+    .six-image-wrap
       box-sizing: border-box
       width: 100%
-      padding: 0 .5rem
-      @media(min-width:750px)
-        width: 33%
-        padding: 0 .5rem
-    .six
-      box-sizing: border-box
-      width: 100%
-      padding: 0 .5rem
       @media(min-width:750px)
         width: 50%
-        padding: 0 .5rem
+
     .text-padding
       padding: 1rem 0
       @media(min-width:750px)
         padding: 0
   .top-align
     align-items: flex-start
-
+.six-image-wrap:nth-child(1)
+  @media(min-width:750px)
+    padding: 0 .5rem 0 0
+.six-image-wrap:nth-child(2)
+  @media(min-width:750px)
+    padding: 0 0 0 .5rem
 .row-flex-test
   display: block
   margin: 0 auto
-.six-test
+.destination-text-wrap
   box-sizing: border-box
   width: 100%
   padding: 0 .5rem
   margin: 0 auto
-  @media(min-width:750px)
-    width: 70%
-    padding: 0 .5rem
   p
     font-size: 18px
     font-weight: 300
     font-family: 'Lato', sans-serif
     line-height: 1.6
     width: 100%
-    max-width: 100%
+    max-width: 750px
   i
     font-size: 14px
     font-family: 'Lato', sans-serif
     width: 100%
     border-bottom: 1px blue solid
 figure
+  box-sizing: border-box
+  max-width: 750px
   width: 100%
   margin: 0 auto
+  padding: 0 .5rem 5px 0
   @media(min-width:750px)
-    width: 70%
+    padding: 0
   i
     font-size: 14px
     font-family: 'Lato', sans-serif
@@ -206,6 +208,7 @@ figure
     padding-bottom: 5px
     border-bottom: 1px #e5e5e5 solid
     color: #666
+    @media(min-width:750px)
 .flex-reverse
   flex-direction: row-reverse
 
@@ -735,11 +738,14 @@ h3:after
 .background-add-padding-small
 
   background-size: cover
-  padding: 80px 10px
+  padding: 20px 10px
   background-position: center
   @media(min-width:800px)
-
     padding: 30px 0
+  p
+    width: 100%
+    max-width: 750px
+    text-align: left
 .page-team
   padding: 20px 0
   @media(min-width: 800px)
@@ -1016,6 +1022,25 @@ $blue: #1F80AA
       font-size: 120px
       line-height: 1.1
 
+
+
+.background-destination-nutshell
+  margin: 20px auto
+  background-size: cover
+  padding: 20px 10px
+  background-position: center
+
+  @media(min-width:600px)
+    padding: 80px 10px
+  @media(min-width:800px)
+    padding: 180px 10px
+    width: 100%
+    max-width: 750px
+
+  p
+    width: 100%
+    max-width: 750px
+    text-align: left
 .story p
   font-weight: 200
 .tour-details
@@ -1029,23 +1054,34 @@ $blue: #1F80AA
   background-repeat: no-repeat
 
 .background-map-hokkaido
-  background-image: url(../img/design-elements/page-hokkaido/hokkaido-map.svg)
+  @media(min-width:800px)
+    background-image: url(../img/design-elements/page-hokkaido/hokkaido-map.svg)
+
+
 .background-map-japan-sea
-  background-image: url(../img/design-elements/page-japan-sea/japan-sea-map.svg)
+  @media(min-width:800px)
+    background-image: url(../img/design-elements/page-japan-sea/japan-sea-map.svg)
 .background-map-kansai
-  background-image: url(../img/design-elements/page-kansai/kansai-map.svg)
+  @media(min-width:800px)
+    background-image: url(../img/design-elements/page-kansai/kansai-map.svg)
 .background-map-kanto
-  background-image: url(../img/design-elements/page-kanto/kanto-map.svg)
+  @media(min-width:800px)
+    background-image: url(../img/design-elements/page-kanto/kanto-map.svg)
 .background-map-kyushu
-  background-image: url(../img/design-elements/page-kyushu/kyushu-map.svg)
+  @media(min-width:800px)
+    background-image: url(../img/design-elements/page-kyushu/kyushu-map.svg)
 .background-map-okinawa
-  background-image: url(../img/design-elements/page-okinawa/okinawa-map.svg)
+  @media(min-width:800px)
+    background-image: url(../img/design-elements/page-okinawa/okinawa-map.svg)
 .background-map-shikoku
-  background-image: url(../img/design-elements/page-shikoku/shikoku-map.svg)
+  @media(min-width:800px)
+    background-image: url(../img/design-elements/page-shikoku/shikoku-map.svg)
 .background-map-southern-alps
-  background-image: url(../img/design-elements/page-southern-alps/southern-alps-map.svg)
+  @media(min-width:800px)
+    background-image: url(../img/design-elements/page-southern-alps/southern-alps-map.svg)
 .background-map-tohoku
-  background-image: url(../img/design-elements/page-tohoku/tohoku-map.svg)
+  @media(min-width:800px)
+    background-image: url(../img/design-elements/page-tohoku/tohoku-map.svg)
 .availability
   background-image: url(../img/photos/availability_bg.jpg)
   width: 100%
@@ -1078,18 +1114,20 @@ $blue: #1F80AA
   @media(min-width:800px)
     height: 800px
 
-.background-add-padding.shikoku
+.background-add-padding.road-story
+  width: 100%
+  max-width: 750px
+  margin: 0 auto
+  padding: 40px 0px
   background-image: url(../img/photos/road-story.jpg)
+  @media(min-width:400px)
+    padding: 180px 0px
 
-  @media(min-width:800px)
-    background-image: url(../img/photos/road-story.jpg)
     background-size: cover
     background-position: top
 
-  @media(min-width:800px)
-    display: flex
-    flex-direction: row
-    justify-content: space-around
+  h4
+    text-align: center
 
   .two-picture-wrapper
 
