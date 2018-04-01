@@ -1114,6 +1114,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/photos\/bamboo-fountain.jpg": {
+		"ft": 16384,
+		"iS": 179992,
+		"oA": 0,
+		"oAP": "\/img\/photos\/bamboo-fountain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/photos\/ben.jpg": {
 		"ft": 16384,
 		"iS": 112676,
@@ -1122,6 +1132,26 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/booking.jpg": {
+		"ft": 16384,
+		"iS": 260589,
+		"oA": 0,
+		"oAP": "\/img\/photos\/booking.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/cyclist-paradise.jpg": {
+		"ft": 16384,
+		"iS": 516472,
+		"oA": 0,
+		"oAP": "\/img\/photos\/cyclist-paradise.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/dest-shikoku-1.jpg": {
@@ -1154,6 +1184,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/photos\/festivals.jpg": {
+		"ft": 16384,
+		"iS": 202826,
+		"oA": 0,
+		"oAP": "\/img\/photos\/festivals.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/flower-mobile.jpg": {
 		"ft": 16384,
 		"iS": 59342,
@@ -1172,6 +1212,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/food.jpg": {
+		"ft": 16384,
+		"iS": 225208,
+		"oA": 0,
+		"oAP": "\/img\/photos\/food.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/photos\/fuji-mobile.jpg": {
@@ -1264,26 +1314,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/photos\/hokkaido-5-mobile.jpg": {
-		"ft": 16384,
-		"iS": 97784,
-		"oA": 0,
-		"oAP": "\/img\/photos\/hokkaido-5-mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/photos\/hokkaido-5.jpg": {
-		"ft": 16384,
-		"iS": 5376826,
-		"oA": 0,
-		"oAP": "\/img\/photos\/hokkaido-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/photos\/hokkaido-destination-thumb.jpg": {
 		"ft": 16384,
 		"iS": 44457,
@@ -1304,6 +1334,26 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/photos\/hokkaido-hp-mobile.jpg": {
+		"ft": 16384,
+		"iS": 97784,
+		"oA": 0,
+		"oAP": "\/img\/photos\/hokkaido-hp-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/hokkaido-hp.jpg": {
+		"ft": 16384,
+		"iS": 5376826,
+		"oA": 0,
+		"oAP": "\/img\/photos\/hokkaido-hp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/photos\/hokkaido.jpg": {
 		"ft": 16384,
 		"iS": 7520278,
@@ -1312,6 +1362,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/hp-contact.jpg": {
+		"ft": 16384,
+		"iS": 127374,
+		"oA": 0,
+		"oAP": "\/img\/photos\/hp-contact.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/photos\/insta-1.jpg": {
@@ -1404,11 +1464,31 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/photos\/james-bicycle-1.JPG": {
+		"ft": 16384,
+		"iS": 255935,
+		"oA": 0,
+		"oAP": "\/img\/photos\/james-bicycle-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/james.jpg": {
 		"ft": 16384,
 		"iS": 102714,
 		"oA": 0,
 		"oAP": "\/img\/photos\/james.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/japan-culture.jpg": {
+		"ft": 16384,
+		"iS": 168722,
+		"oA": 0,
+		"oAP": "\/img\/photos\/japan-culture.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1544,6 +1624,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/mountains.jpg": {
+		"ft": 16384,
+		"iS": 181342,
+		"oA": 0,
+		"oAP": "\/img\/photos\/mountains.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/okinawa-destination-thumb.jpg": {
 		"ft": 16384,
 		"iS": 34275,
@@ -1562,6 +1652,176 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-1.jpg": {
+		"ft": 16384,
+		"iS": 151348,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-10.jpg": {
+		"ft": 16384,
+		"iS": 167189,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-11.jpg": {
+		"ft": 16384,
+		"iS": 170168,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-12.jpg": {
+		"ft": 16384,
+		"iS": 225577,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-13.jpg": {
+		"ft": 16384,
+		"iS": 208378,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-14.jpg": {
+		"ft": 16384,
+		"iS": 312244,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-15.jpg": {
+		"ft": 16384,
+		"iS": 159303,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-16.jpg": {
+		"ft": 16384,
+		"iS": 136329,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-17.jpg": {
+		"ft": 16384,
+		"iS": 289176,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-2.jpg": {
+		"ft": 16384,
+		"iS": 127736,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-3.jpg": {
+		"ft": 16384,
+		"iS": 217168,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-4.jpg": {
+		"ft": 16384,
+		"iS": 246770,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-5.jpg": {
+		"ft": 16384,
+		"iS": 129950,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-6.jpg": {
+		"ft": 16384,
+		"iS": 100340,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-7.jpg": {
+		"ft": 16384,
+		"iS": 143277,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-8.jpg": {
+		"ft": 16384,
+		"iS": 224463,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-hokkaido\/hokkaido-9.jpg": {
+		"ft": 16384,
+		"iS": 148370,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-hokkaido\/hokkaido-9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/photos\/page-hokkaido\/hokkaido-splash.jpg": {
@@ -1664,6 +1924,46 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/page-kanto\/kanto-6.JPG": {
+		"ft": 16384,
+		"iS": 202022,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kanto\/kanto-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-kanto\/kanto-7.JPG": {
+		"ft": 16384,
+		"iS": 152309,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kanto\/kanto-7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-kanto\/kanto-8.JPG": {
+		"ft": 16384,
+		"iS": 259083,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kanto\/kanto-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-kanto\/kanto-9.JPG": {
+		"ft": 16384,
+		"iS": 165455,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kanto\/kanto-9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/page-kanto\/kanto-splash.jpg": {
 		"ft": 16384,
 		"iS": 554941,
@@ -1744,6 +2044,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/page-kyushu\/kyushu-8.JPG": {
+		"ft": 16384,
+		"iS": 126546,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kyushu\/kyushu-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-kyushu\/kyushu-9.JPG": {
+		"ft": 16384,
+		"iS": 60307,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kyushu\/kyushu-9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/page-kyushu\/kyushu-splash.jpg": {
 		"ft": 16384,
 		"iS": 326712,
@@ -1752,6 +2072,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/page-kyushu\/road-photos.jpg": {
+		"ft": 16384,
+		"iS": 62639,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-kyushu\/road-photos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/photos\/page-okinawa\/ben-bike-greenwall.jpg": {
@@ -2164,6 +2494,36 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/page-southern-alps\/alps-13.jpg": {
+		"ft": 16384,
+		"iS": 1869634,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-southern-alps\/alps-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-southern-alps\/alps-14.jpg": {
+		"ft": 16384,
+		"iS": 1063777,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-southern-alps\/alps-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/page-southern-alps\/alps-15.jpg": {
+		"ft": 16384,
+		"iS": 444675,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-southern-alps\/alps-15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/page-southern-alps\/alps-2.jpg": {
 		"ft": 16384,
 		"iS": 109029,
@@ -2294,6 +2654,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/photos\/page-tohoku\/tohoku-5.JPG": {
+		"ft": 16384,
+		"iS": 90081,
+		"oA": 0,
+		"oAP": "\/img\/photos\/page-tohoku\/tohoku-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/photos\/page-tohoku\/tohoku-splash.jpg": {
 		"ft": 16384,
 		"iS": 638368,
@@ -2342,6 +2712,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/photos\/road-photos.jpg": {
+		"ft": 16384,
+		"iS": 62639,
+		"oA": 0,
+		"oAP": "\/img\/photos\/road-photos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/photos\/road-story.jpg": {
@@ -2599,12 +2979,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
-		"oF": 0
-		},
-	"\/izu.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/izu.html",
 		"oF": 0
 		},
 	"\/japan-sea.html": {

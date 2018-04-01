@@ -74,6 +74,9 @@ p
   text-align: center
   color: $base-color
   font-weight: 400
+  font-family: 'Lato', sans-serif
+  line-height: 1.6
+  font-size: 16px
   @media(min-width: 400px)
     margin: 5px auto 15px auto
     width: 80%
@@ -109,6 +112,14 @@ p
   background-color: rgba(255,255,255, 0)
 .btn-white:hover
   color: $base-color
+.btn-yellow
+  // background-color: #A68A30
+  background-color: #A0281F
+  border: 2px solid white
+  color: white
+.btn-yellow:hover
+  color: #A0281F
+  border: 2px solid #A0281F
 
 .divider
   width: 50%
@@ -181,12 +192,13 @@ p
   padding: 0 .5rem
   margin: 0 auto
   p
-    font-size: 18px
-    font-weight: 300
+    font-size: 16px
+    font-weight: 400
     font-family: 'Lato', sans-serif
     line-height: 1.6
     width: 100%
     max-width: 750px
+    text-align: left
   i
     font-size: 14px
     font-family: 'Lato', sans-serif
@@ -198,6 +210,7 @@ figure
   width: 100%
   margin: 0 auto
   padding: 0 .5rem 5px 0
+  text-align: center
   @media(min-width:750px)
     padding: 0
   i
@@ -208,7 +221,7 @@ figure
     padding-bottom: 5px
     border-bottom: 1px #e5e5e5 solid
     color: #666
-    @media(min-width:750px)
+
 .flex-reverse
   flex-direction: row-reverse
 
@@ -461,11 +474,11 @@ footer
   ---------------------------------------------------------------------------------------------------- */
 
 .hp-slogan
-  background-image: url(../img/photos/fuji.JPG)
+  background-image: url(../img/photos/bamboo-fountain.jpg)
   background-size: cover
   padding: 100px 10px
   @media(min-width:800px)
-    background-image: url(../img/photos/sakura-temple-2.jpg)
+    background-image: url(../img/photos/bamboo-fountain.jpg)
     padding: 200px 10px
 
 /* homepage-destinations-styles
@@ -531,9 +544,7 @@ footer
   background-size: cover
   background-position: bottom
   opacity: .9
-.destination-story-paragraph
-  p
-    text-align: left
+
 /* destinations thumb repeated on hp-destination, page-destination, destination
   ---------------------------------------------------------------------------------------------------- */
 
@@ -587,12 +598,14 @@ h3:after
 /* homepage-booking-styles
   ---------------------------------------------------------------------------------------------------- */
 .hp-booking
-  background-image: url(../img/photos/hokkaido-5-mobile.jpg)
+  // background-image: url(../img/photos/hokkaido-hp-mobile.jpg)
+  background-image: url(../img/photos/hp-contact.jpg)
   background-size: cover
   padding: 100px 10px
   background-position: center
   @media(min-width:800px)
-    background-image: url(../img/photos/hokkaido-5.JPG)
+    // background-image: url(../img/photos/hokkaido-hp.JPG)
+    background-image: url(../img/photos/hp-contact.jpg)
     padding: 200px 10px
 
 /* homepage-instagram-styles
@@ -709,23 +722,25 @@ h3:after
     height: calc(100vh - 40px)
     h2
       text-shadow: $text-shadow-lightletters
+.page-background
+  background-size: cover
+  padding: 100px 10px
+  background-position: center
+  @media(min-width:800px)
+    padding: 200px 10px
 
 /* Page-about
   ---------------------------------------------------------------------------------------------------- */
-
+.about-background
+  background-image: url(../img/photos/team-group-mobile.jpg)
+  @media(min-width:800px)
+    background-image: url(../img/photos/team-group.jpg)
 .page-about-splash
   background-image: url(../img/photos/two-shot-mobile.jpg)
   @media(min-width:800px)
     background-image: url(../img/photos/two-shot.jpg)
 
-.page-background
-  background-image: url(../img/photos/team-group-mobile.jpg)
-  background-size: cover
-  padding: 100px 10px
-  background-position: center
-  @media(min-width:800px)
-    background-image: url(../img/photos/team-group.jpg)
-    padding: 200px 10px
+
 .background-add-padding
   margin: 20px 0
   background-size: cover
@@ -824,10 +839,20 @@ h3:after
   box-sizing: border-box
   padding-left: 10px
   padding-right: 10px
-
-
-
-
+.cyclist-paradise-background
+  background-image: url(../img/photos/cyclist-paradise.jpg)
+  @media(min-width:800px)
+    background-image: url(../img/photos/cyclist-paradise.jpg)
+.japan-culture
+  background-image: url(../img/photos/japan-culture.jpg)
+  @media(min-width:800px)
+    background-image: url(../img/photos/japan-culture.jpg)
+.mountains
+  background-image: url(../img/photos/mountains.jpg)
+.festivals
+  background-image: url(../img/photos/festivals.jpg)
+.food
+  background-image: url(../img/photos/food.jpg)
 /* Page-contact
   ---------------------------------------------------------------------------------------------------- */
 
@@ -844,7 +869,10 @@ h3:after
   @media(min-width:800px)
     background-image: url(../img/photos/road-bend.jpg)
 
-
+.booking
+  background-image: url(../img/photos/booking.jpg)
+  @media(min-width:800px)
+    background-image: url(../img/photos/booking.jpg)
 
 /* Page-booking
   ---------------------------------------------------------------------------------------------------- */
@@ -1113,6 +1141,17 @@ $blue: #1F80AA
 
   @media(min-width:800px)
     height: 800px
+.background-add-padding.road-photos
+  width: 100%
+  max-width: 750px
+  margin: 0 auto
+  padding: 40px 0px
+  background-image: url(../img/photos/road-photos.jpg)
+  @media(min-width:400px)
+    padding: 180px 0px
+
+    background-size: cover
+    background-position: top
 
 .background-add-padding.road-story
   width: 100%
