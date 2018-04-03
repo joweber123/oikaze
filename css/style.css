@@ -837,7 +837,7 @@ h3:after {
   background-image: url(../img/photos/ben.jpg); }
 
 .james {
-  background-image: url(../img/photos/james.jpg); }
+  background-image: url(../img/photos/james-1.jpg); }
 
 .half-half {
   display: block; }
@@ -924,6 +924,9 @@ h3:after {
 
 .food {
   background-image: url(../img/photos/food.jpg); }
+
+.japan-onsen {
+  background-image: url(../img/photos/onsen.jpg); }
 
 /* Page-contact
   ---------------------------------------------------------------------------------------------------- */
