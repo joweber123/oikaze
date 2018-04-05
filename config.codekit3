@@ -424,6 +424,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/page-hokkaido\/calendar-edit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-hokkaido\/calendar-edit.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/design-elements\/page-hokkaido\/calendar-hokkaido-mobile.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -449,6 +459,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/page-hokkaido\/calendar-hokkaido.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-hokkaido\/calendar-mobile-edit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-hokkaido\/calendar-mobile-edit.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -520,26 +540,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/design-elements\/page-japan-sea\/calendar-mobile.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-japan-sea\/calendar-mobile.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/page-japan-sea\/calendar.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-japan-sea\/calendar.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/img\/design-elements\/page-japan-sea\/japan-sea-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -575,26 +575,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/page-kansai\/calendar-kansai.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/page-kansai\/calendar-mobile.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-kansai\/calendar-mobile.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/page-kansai\/calendar.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-kansai\/calendar.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -640,26 +620,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/design-elements\/page-kanto\/calendar-mobile.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-kanto\/calendar-mobile.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/page-kanto\/calendar.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-kanto\/calendar.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/img\/design-elements\/page-kanto\/kanto-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -700,26 +660,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/design-elements\/page-kyushu\/calendar-mobile.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-kyushu\/calendar-mobile.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/page-kyushu\/calendar.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-kyushu\/calendar.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/img\/design-elements\/page-kyushu\/kyushu-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -735,6 +675,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/page-okinawa\/calendar-edit.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-okinawa\/calendar-mobile-edit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-okinawa\/calendar-mobile-edit.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -795,6 +745,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/page-okinawa\/okinawa-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/design-elements\/page-shikoku\/calendar-edit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-shikoku\/calendar-edit.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -911,21 +871,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/design-elements\/page-shikoku\/E95DF8AE9436F8AD._t_": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/design-elements\/page-shikoku\/E95DF8AE9436F8AD._t_",
+		"oF": 0
+		},
 	"\/img\/design-elements\/page-shikoku\/shikoku-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/page-shikoku\/shikoku-map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/page-southern-alps\/calendar-mobile.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-southern-alps\/calendar-mobile.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -956,16 +912,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/design-elements\/page-southern-alps\/calendar-southern-alps.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/design-elements\/page-southern-alps\/calendar.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/design-elements\/page-southern-alps\/calendar.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
